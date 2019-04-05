@@ -1,0 +1,10 @@
+body li {
+    list-style-type: none;
+}
+
+header,
+main,
+footer {
+    border: 1px solid;
+}
+
