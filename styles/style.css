@@ -76,7 +76,7 @@ nav, main, footer {
 
 @media screen and (max-width: 604px) {
   .container {
-    grid-template-rows: 25% 1fr 10%;
+    grid-template-rows: 30% 1fr 10%;
   }
 
   .box {
@@ -94,7 +94,7 @@ nav, main, footer {
   }
 
   #name, #home, #about, #portfolio, #code-journal {
-    align: center;
+    box-align: center;
   }
 }
 
