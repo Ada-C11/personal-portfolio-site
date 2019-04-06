@@ -1,72 +1,73 @@
+/* GENERAL STYLING */
+
 body {
-    display: grid;
-    grid-template-columns: 1fr 80em;
-    grid-template-rows: 150px 1fr min-content;
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 #header h1 {
-    grid-row: 1;
-    grid-column: 2;
+    margin-top: 3em;
     text-align: center;
 }
 
-nav {
-    grid-column: 1;
-    /* display: flex;
-    flex-direction: row; */
-    font-size: 20px;
+#navbar {
+    overflow: hidden;
+    background-color: rgb(135, 157, 231);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-nav ul {
-    list-style-type: none;
-    padding-left: 10px;
-}
-
-nav a {
-    margin-top: 50px;
-    margin-right: 50px;
+#navbar a {
+    float: left;
     display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1em;
     text-decoration: none;
-    border: 1px solid #56a29f;
-    border-radius: 10px;
-    text-align: center;
-    padding: 12px;
-    color: #062c61;
 }
 
-nav a:hover {
-    text-decoration: underline;
-    color: white;
-    background: #7e80e2;
+#navbar a:hover {
+    background: rgb(238, 168, 217);
+    color: black;
 }
 
-footer {
-    grid-row: 3;
-    grid-column: 2;
-    /* display: flex;
-    justify-content: center; */
-    text-align: center;
-    padding: 3px;
+main {
     margin-top: 30px;
 }
 
-#article img {
-    width: 300px;
-    float: left;
-    margin: 0 1em 1em 0;
-}
-
 #article {
-    padding: 2em;
-    margin-top: 15px;
+    border: 1px solid black;
+    overflow: auto;
+    float: left;
+    width: auto;
+    padding: 5px;
 }
 
-#article article:first-child {
-    margin-top: 0;
+article img {
+    margin-top: 5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    float: left;
+    width: 500px;
+    height: 500px;
+    border: 1px dotted red;
 }
 
-#article ul {
-    list-style-type: none;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(135, 157, 231);
+    color: white;
+    text-align: center;
+}
+
+article section p {
+    border: 1px dashed white;
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    padding: 5em;
 }
