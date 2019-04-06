@@ -1,0 +1,7 @@
+/* Main */
+main {
+  margin-top: 10em;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
