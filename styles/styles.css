@@ -36,44 +36,28 @@ main {
     margin-top: 30px;
 }
 
-#article {
+#article .clearfix {
     border: 1px solid black;
     overflow: auto;
-    float: left;
     width: auto;
     padding: 5px;
-}
-
-#octocat {
-    margin-top: 5em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    float: left;
-    width: 500px;
-    height: 500px;
-    border: 1px dotted red;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(135, 157, 231);
-    color: white;
-    text-align: center;
+    display: inline-flex;
 }
 
 #article section p {
+    margin: 1em 1em 1em 1em;
     border: 1px dashed white;
-    box-sizing: border-box;
-    float: right;
-    width: 50%;
-    padding: 5em;
+    width: auto;
+    padding: 1em;
 }
 
 #article h3 {
     text-align: center;
+}
+
+#article .clearfix img {
+    width: 500px;
+    height: 500px;
 }
 
 .row {
@@ -91,4 +75,24 @@ footer {
     .column {
         width: 100%;
     }
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(135, 157, 231);
+    color: white;
+    text-align: center;
 }
