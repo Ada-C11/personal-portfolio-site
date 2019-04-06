@@ -1,0 +1,177 @@
+/* all pages  */
+
+/* body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid red
+}
+
+h1 {
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+
+h2 {
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+
+h3, h4 {
+    padding-left: 1em;
+}
+
+/* header  */
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+nav > ul > div > ul {
+    border: red 1px solid;
+}
+
+nav ul li {
+    padding: 1em;
+    margin: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* footer  */
+
+footer {
+    background-color: pink;
+}
+
+
+/* specific to index.html */
+
+.index-intro {
+    padding-top: 1em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+/* specifc to about.html  */
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 1em;
+    margin: 1em;
+}
+
+.about-me article {
+    max-width: 40em;
+    /* padding: 1em; */
+    /* padding-top: 5em; */
+}
+
+.about-me article div {
+    border: black solid 1px;
+    /* padding-top: 1em; */
+    margin-top: 1em;
+    
+}
+.about-me article p {
+    padding: 1em;
+    border: black solid 1px;
+}
+
+.about-me img {
+    max-height: 25em;
+}
+
+#contact h2 {
+    padding-left: 1.5em;
+}
+#contact > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact div div {
+    padding-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+#contact div div img {
+    float: left;
+}
+
+#contact div div a {
+    text-decoration: none;
+    margin-left: .5em;
+    margin-top: .5em;
+}
+
+#contact div a:hover {
+    text-decoration: underline;
+    
+}
+
+#contact img {
+    height: 1.5em;
+}
+
+/* specific to portfolio.html & code-journal.html*/
+
+#projects ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    border: coral solid 1px;
+    padding: 0;
+}
+
+#journal-entries ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    /* border: coral solid 1px; */
+    padding: 0;
+}
+
+#projects ul li {
+    border: lightpink solid 1px;
+    padding: 1em;
+    margin: 1em;
+    max-width: 20em;
+}
+
+#journal-entries ul li article {
+    padding: 1em;
+    margin: 1em;
+    max-width: 60em;
+    border: lightpink solid 1px;
+}
+
+#projects ul li a {
+    /* this makes the clickable area more than just the link for accessiblity*/
+    display: block; 
+    text-decoration: none;
+}
+
+#projects ul li a:hover {
+    /* make links underlined for accessibility */
+    text-decoration: underline;
+}
