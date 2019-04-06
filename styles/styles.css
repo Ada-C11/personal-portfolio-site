@@ -36,6 +36,11 @@ main {
     margin-top: 30px;
 }
 
+#octocat {
+    width: 500px;
+    height: 500px;
+}
+
 #article .clearfix {
     border: 1px solid black;
     overflow: auto;
@@ -44,7 +49,7 @@ main {
     display: inline-flex;
 }
 
-#article section p {
+#article section #main-page {
     margin: 1em 1em 1em 1em;
     border: 1px dashed white;
     width: auto;
@@ -85,6 +90,35 @@ main {
     content: "";
     clear: both;
     display: table;
+}
+
+.content {
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.content .post {
+    margin: 1em;
+}
+
+.post {
+    width: 30%;
+    vertical-align: top;
+    border-bottom: 1px solid grey;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    margin: 0;
+    padding: 5%;
+}
+
+.post p {
+    margin: 1em auto;
+    height: 60%;
 }
 
 footer {
