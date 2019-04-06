@@ -2,7 +2,15 @@ h1 {
   text-align: center;
 }
 
-.wrapper {
+main {
+  padding: 1em;
+  overflow-y: scroll;
+  scrollbar-width: thin;
   display: flex;
-  flex-flow: column wrap; 
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+article {
+  padding: 1%
 }
