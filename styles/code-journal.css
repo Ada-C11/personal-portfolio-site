@@ -1,0 +1,136 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14pt;
+  margin: 0 auto;
+  background-color: #011627;
+  width: 100%;
+}
+
+.top-menu {
+  display: flex;
+  background-color: #FDFFFC;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  height: 100px;
+  width: auto;
+  align-items: center;
+  margin: 0;
+  font-size: 16pt;
+  color: #494949;
+}
+
+.top-menu li {
+  margin:  20px;
+
+
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: #494949;
+
+}
+
+.top-menu li:first-child {
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.top-menu a:hover {
+  color: #9D8420;
+}
+
+.main {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  color: rgb(32, 32, 32);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  align-items: center;
+  height: 600px;
+}
+
+.left-main {
+  display: flex;
+  justify-content: space-around;
+  clip-path: circle(60px at center);
+}
+
+.right-main {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.right-main div > p:first-child {
+  font-size: 30pt;
+  color: #494949;
+}
+.right-main div > p:last-child {
+  font-size: 20pt;
+  color: #494949;
+}
+
+.right-main:last-child {
+  font-size: 14pt;
+  color: #494949;
+}
+
+.right-main ul {
+  display: grid;
+  grid-gap: 5px;
+  width: 360px;
+  margin-left: 0;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  flex-direction: row;
+}
+
+.right-main ul > li:nth-child(1) {
+  background-color: aqua;
+  border: #2E3532 solid;
+}
+
+.right-main ul > li:nth-child(2) {
+  background-color: #B91372;
+  border: #2E3532 solid;
+}
+
+.right-main ul > li:nth-child(3) {
+  background-color: #FF0022;
+  border: #2E3532 solid;
+}
+
+.footer-menu {
+  display: flex;
+  background-color: #FDFFFC;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  height: 120px;
+  width: auto;
+  align-items: center;
+  margin: 0;
+  font-size: 16pt;
+  color: #2E3532;
+}
+
+
+.footer-menu ul {
+  padding: 0px;
+}
+
+.footer-menu > div {
+padding: 0 40px;
+}

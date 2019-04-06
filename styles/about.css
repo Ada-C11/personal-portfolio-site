@@ -10,13 +10,13 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14pt;
   margin: 0 auto;
-  background-color: #FF5D73;
+  background-color: #011627;
   width: 100%;
 }
 
 .top-menu {
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #FDFFFC;
   list-style-type: none;
   justify-content: space-around;
   padding: 0;
@@ -30,6 +30,14 @@ body {
 
 .top-menu li {
   margin:  20px;
+
+
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: #494949;
+
 }
 
 .top-menu li:first-child {
@@ -40,7 +48,7 @@ ul {
   list-style-type: none;
 }
 
-li:hover {
+.top-menu a:hover {
   color: #9D8420;
 }
 
@@ -66,15 +74,6 @@ li:hover {
 
 }
 
-.right-main ul {
-  display: grid;
-  grid-gap: 5px;
-  width: 360px;
-  margin-left: 0;
-  grid-template: 1fr / 1fr 1fr 1fr;
-  flex-direction: row;
-}
-
 .right-main div > p:first-child {
   font-size: 30pt;
   color: #494949;
@@ -84,14 +83,38 @@ li:hover {
   color: #494949;
 }
 
-.right-main ul > li {
+.right-main:last-child {
+  font-size: 14pt;
+  color: #494949;
+}
+
+.right-main ul {
+  display: grid;
+  grid-gap: 5px;
+  width: 360px;
+  margin-left: 0;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  flex-direction: row;
+}
+
+.right-main ul > li:nth-child(1) {
   background-color: aqua;
+  border: #2E3532 solid;
+}
+
+.right-main ul > li:nth-child(2) {
+  background-color: #B91372;
+  border: #2E3532 solid;
+}
+
+.right-main ul > li:nth-child(3) {
+  background-color: #FF0022;
   border: #2E3532 solid;
 }
 
 .footer-menu {
   display: flex;
-  background-color: #E0E2DB;
+  background-color: #FDFFFC;
   list-style-type: none;
   justify-content: space-around;
   padding: 0;
