@@ -8,7 +8,7 @@ html, body {
 
 body {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr;
+  grid-template: 100px 1fr 120px / 1fr;
   flex-direction: column;
   justify-content: space-between;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,14 +16,6 @@ body {
   margin: 0 auto;
   background-color: #011627;
   width: 100%;
-  padding-top: 100px;
-
-}
-
-.top-menu {
-  position: fixed;
-  width: 100%;
-  top: 0;
 
 }
 
@@ -48,7 +40,7 @@ body {
 
 .top-menu a {
   text-decoration: none;
-  color: #494949;
+  color: #353535;
 
 }
 
@@ -62,7 +54,7 @@ ul {
 }
 
 .top-menu a:hover {
-  color: #9D8420;
+  color: #41EAD4;
 }
 
 
@@ -73,14 +65,13 @@ ul {
   list-style-type: none;
   justify-content: space-around;
   padding: 0;
-  height: 120px;
+  height: 100%;
   width: auto;
   align-items: center;
   margin: 0;
   font-size: 16pt;
   color: #2E3532;
 }
-
 
 .footer-menu ul {
   padding: 0px;
