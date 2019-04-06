@@ -1,4 +1,12 @@
-/* GENERAL STYLING */
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Tangerine');
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Fascinate Inline', cursive;
+}
 
 body {
     background: rgb(238, 174, 202);
@@ -7,6 +15,10 @@ body {
 
 #header h1 {
     margin-top: 3em;
+    text-align: center;
+}
+
+#header h4 {
     text-align: center;
 }
 
@@ -42,7 +54,7 @@ main {
 }
 
 #article .clearfix {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: auto;
     width: auto;
     padding: 5px;
@@ -50,8 +62,8 @@ main {
 }
 
 #article section #main-page {
+    /* border: 1px dashed white; */
     margin: 1em 1em 1em 1em;
-    border: 1px dashed white;
     width: auto;
     padding: 1em;
 }
@@ -74,12 +86,6 @@ main {
 .column {
     flex: 0 0 calc(33.33% - 30px);
     padding: 5px;
-}
-
-@media screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-    }
 }
 
 .clearfix {
@@ -119,6 +125,21 @@ main {
 .post p {
     margin: 1em auto;
     height: 60%;
+}
+
+#about {
+    /* border: 1px dashed white; */
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    width: auto;
+}
+
+#link {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2em; */
+    width: 200px;
+    height: auto;
 }
 
 footer {
