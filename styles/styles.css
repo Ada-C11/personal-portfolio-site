@@ -44,7 +44,7 @@ main {
     padding: 5px;
 }
 
-article img {
+#octocat {
     margin-top: 5em;
     margin-left: 1.5em;
     margin-right: 1.5em;
@@ -64,10 +64,31 @@ footer {
     text-align: center;
 }
 
-article section p {
+#article section p {
     border: 1px dashed white;
     box-sizing: border-box;
     float: right;
     width: 50%;
     padding: 5em;
+}
+
+#article h3 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    flex: 0 0 calc(33.33% - 30px);
+    padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
 }
