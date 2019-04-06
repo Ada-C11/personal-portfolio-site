@@ -1,0 +1,82 @@
+body {
+    font-family: "Avenir Next W01 Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.82857;
+
+}
+
+
+.left-navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+.left-navigation ul li.nav-link a {
+    padding-right: 1em;
+    color: lightgrey;
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-line: none;
+} 
+ .intro h1 {
+     padding: 80px 40px 0;
+     margin-top: 0;
+     letter-spacing: -2px;
+     word-spacing: -4px;
+     margin-bottom: 15px;
+     font-weight: 400;
+     line-height: 1.1;
+     color: darkgrey;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-envelope {
+    background: #00b0c4;
+    color: white;
+}
+.fa-facebook {
+    background: #00b0c4;
+    color: white;
+}
+.fa-linkedin {
+    background: #00b0c4;
+    color: white;
+}
+.fa-github {
+    background: #00b0c4;
+    color: white;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    line-height: 1;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.copy {
+    margin-right: auto;
+    font-size: .8em;
+    color: lightgray;
+
+
+}
+  
