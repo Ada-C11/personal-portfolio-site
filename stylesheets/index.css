@@ -5,7 +5,11 @@ h2 {
   font-size: 2em;
   text-align: center;
 }
-
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 5em;
+  text-align: center;
+}
 
  
 main {
