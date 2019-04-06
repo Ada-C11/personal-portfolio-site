@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Dokdo|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 * {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   box-sizing: border-box;
 }
 
@@ -14,11 +15,16 @@ html, body {
   height: 100%;
 }
 
+#name > a {
+  font-size: 2em;
+  font-family: Indie Flower, sans-serif;
+}
+
 .container {
   display: grid;
   width: 100%;
   height: 100%;
-  grid-template-rows: 20% 1fr 10%;
+  grid-template-rows: 10% 1fr 10%;
   vertical-align: middle;
 }
 
@@ -64,12 +70,23 @@ nav, main, footer {
   align-content: center;
 }
 
-#name::after {
-  content: " | "
-}
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-rows: 30% 1fr 10%;
+  }
 
-#email::before {
-  content: "\00a0"
+  .box {
+    flex-flow: column;
+    justify-content: space-around;
+  }
+
+  .box > div {
+    flex-flow: column;
+  }
+
+  .box div:nth-child(2) {
+    justify-content: space-evenly
+  }
 }
 
 footer {
