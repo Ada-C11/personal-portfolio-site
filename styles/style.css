@@ -82,6 +82,7 @@ nav, main, footer {
   .box {
     flex-flow: column;
     justify-content: space-around;
+    align-items: center;
   }
 
   .box > div {
@@ -90,6 +91,10 @@ nav, main, footer {
 
   .box div:nth-child(2) {
     justify-content: space-evenly
+  }
+
+  #name, #home, #about, #portfolio, #code-journal {
+    align: center;
   }
 }
 
