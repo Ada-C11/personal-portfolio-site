@@ -1,0 +1,21 @@
+h1 {
+  font-family: 'Oleo Script', cursive;
+  text-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oleo Script', cursive;
+  text-size: 2em;
+  text-align: center;
+}
+ 
+main {
+  padding: 3em 3em;
+
+}
+body {
+  background: aquamarine;
+}
+
+

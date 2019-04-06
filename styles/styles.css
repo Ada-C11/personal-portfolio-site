@@ -1,0 +1,24 @@
+header, footer {
+  background-color: beige;
+  margin: 2em 2em;
+  padding: 2em ;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+nav li {
+  flex: 1;
+  list-style-type: none;
+}
+ 
+footer {
+  text-align: center;
+  margin: 1em;
+  padding: 2em
+}
+
