@@ -1,9 +1,33 @@
-body {
+.container {
+    display: grid;
+    grid-template: 1fr 2fr 6fr 1fr/ 1fr;
+    width: 100vw;
+    height: 100vh;
     font-family: "Avenir Next W01 Light","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 17px;
     line-height: 1.82857;
 
 }
+/* .intro h1>span>span {
+    color: #f7d100;
+} */
+.intro h1>span {
+    font-size: 1.9em;
+    letter-spacing: -5px;
+    font-size: 1.2em;
+    border-bottom: 3px solid #8e9eab;
+    display: inline-block;
+    padding: 10px;
+}
+.intro h1 {
+    word-spacing: -4px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.intro {
+    text-align: center;
+}
+
 
 
 .left-navigation-menu {
@@ -25,12 +49,27 @@ body {
      padding: 80px 40px 0;
      margin-top: 0;
      letter-spacing: -2px;
-     word-spacing: -4px;
+     word-spacing: 10px;
      margin-bottom: 15px;
      font-weight: 400;
      line-height: 1.1;
      color: darkgrey;
 }
+.intro h1 span {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.wrap {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Avenir Next W01 Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: darkgray;
+
+}
+.wrap a:link {
+    text-decoration: none;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
