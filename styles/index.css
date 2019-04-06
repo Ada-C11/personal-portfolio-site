@@ -1,0 +1,122 @@
+body {
+  /* margin: 0; */
+  height: 55rem;
+  background-image: url("../images/topography.svg");
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 1fr 5fr 1fr;
+  justify-items: center; 
+  /* justify-content: center;
+  align-content: center; */
+}
+
+#black-box {
+  grid-column-start: 2;
+  grid-row: 2;
+  /* margin-top: 25px; */
+  width: 40rem;
+  height: 42rem;
+  background-color: black;
+  /* display: grid;
+  grid-template-rows: 60% 20% 10%;
+  justify-content: center;
+  align-items: baseline; */
+  background: url("../images/mosaic.png")
+}
+
+header {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+nav ul {
+  width: 640px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  list-style-type: none;
+}
+
+nav a {
+  display: inline-block;
+  width: 10rem;
+  height: 1.5rem;
+  background-color: white;
+  border: 1px solid black;
+  color:purple;
+  margin-bottom: 2rem;
+  /* margin-right: 2rem; */
+  font-size: 1.5rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+section {
+  justify-content: center;
+}
+
+section > img {
+  margin-top: 5rem;
+  border:3px solid white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+#photo {
+  display: block;
+  text-align: center;
+}
+
+#intro {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#social a {
+  margin: 1rem;
+}
+
+#social a:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  color: yellow;
+}
+
+h2, span {
+  font-family: 'Inconsolata', monospace;
+}
+
+footer {
+  grid-row: 3;
+  grid-column: 1;
+  width: 9rem;
+  height: 2rem;
+  background-color: white;
+}
+
