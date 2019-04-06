@@ -15,14 +15,21 @@ html, body {
 
 body {
   background-color: lightblue;
+  vertical-align: middle;
 }
 
 nav {
   background-color: #00cccc;
 }
 
+ul {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
 nav, main, footer {
-  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .box {
@@ -45,10 +52,12 @@ nav, main, footer {
 
 .box div:first-child {
   justify-content: flex-start;
+  align-content: center;
 }
 
 .box div:nth-child(2) {
   justify-content: space-between;
+  align-content: center;
 }
 
 #name::after {
