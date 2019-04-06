@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Montserrat');
+
+* {
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: lightblue;
+}
+
+nav {
+  text-align: center;
+}
+
+.box {
+  padding: 0px;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between
+}
+
+.box > div {
+  padding: 0px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box div:first-child {
+  justify-content: flex-start;
+}
+
+.box div:nth-child(2) {
+  justify-content: space-between;
+}
+
+#name::after {
+  content: " | "
+}
+
+#email::before {
+  content: "\00a0"
+}
+
