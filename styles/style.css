@@ -14,7 +14,6 @@ html, body {
 }
 
 body {
-  background-color: lightblue;
   vertical-align: middle;
 }
 
@@ -22,7 +21,7 @@ nav {
   background-color: #00cccc;
 }
 
-ul {
+ul, p {
   margin-block-end: 0px;
   margin-block-start: 0px;
 }
@@ -66,5 +65,10 @@ nav, main, footer {
 
 #email::before {
   content: "\00a0"
+}
+
+footer {
+  border-top: solid 2px #00cccc;
+  vertical-align: bottom;
 }
 
