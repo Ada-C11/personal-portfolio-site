@@ -1,6 +1,26 @@
+body {
+  display: grid;
+  grid-template: .05fr 0.3fr .05fr 0.3fr 0.5fr 1fr .05fr/ 1fr 
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/bwgl.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 h3 {
   font-size: 4rem;
+  margin: 1rem;
 }
+
 
 main li, p {
   color: rgb(21, 44, 21);
