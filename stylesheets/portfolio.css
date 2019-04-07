@@ -1,0 +1,24 @@
+#programming-projects {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+
+
+.thumbnail {
+    margin:20px;
+    text-align: center;
+}
+
+.thumbnail a{
+    display: block;
+    padding-bottom:10px;
+}
+
+
+@media only screen and (max-width:600px) {
+    #programming-projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
+}

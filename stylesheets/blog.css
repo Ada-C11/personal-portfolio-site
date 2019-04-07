@@ -1,0 +1,36 @@
+body {
+    text-align: left;
+}
+
+.grid-container {
+    display:grid;
+    grid-template: repeat(3, 1fr)/ repeat(4, 1fr)
+}
+
+section ul:empty:before{
+    content: "Nothing to see here yet!"
+}
+aside {
+    margin: 20px;
+    grid-row: 1/5;
+    grid-column:1/2;
+
+}
+
+aside ul {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    position:fixed;
+}
+aside li {
+    margin:20px; 
+}
+
+main {
+    margin: 20px;
+    grid-row: 1/5;
+    grid-column:2/5;
+}
