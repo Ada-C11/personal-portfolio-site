@@ -29,6 +29,23 @@ nav li {
   float: right;
 }
 
+nav li:after {
+  /* position: absolute; */
+  content: "";
+  width: 0px;
+  height: 7px;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+  /* -webkit-transition: width .5s ease-in-out; */
+  transition: width .5s ease-in-out;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  background:  #35537D;
+}
+
 nav li a {
   display: block;
   text-align: center;
