@@ -6,12 +6,19 @@ html, body {
 a {
   text-decoration: none;
 }
+nav a, .flexbox a {
+
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 8px;
+  border-color: darkslategray
+}
 
 body {
   /* display: flex;
   flex-direction: column; */
   background: aquamarine;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -27,8 +34,8 @@ header, footer {
   /* padding: 1em; */
 }
 nav ul {
-  font-size: 1.25em;
-  /* padding: 1em 0; */
+  /* font-size: 1.25em; */
+  padding: 1em 0;
 }
 
 nav ul, footer {
