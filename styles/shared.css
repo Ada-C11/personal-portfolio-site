@@ -1,8 +1,10 @@
-html, body {
+html,
+body {
   height: 100%;
+  font-family: "Roboto Mono", monospace;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -11,17 +13,15 @@ body {
   grid-template: 100px 1fr 120px / 1fr;
   flex-direction: column;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14pt;
   margin: 0 auto;
-  background-color: #011627;
+  background-color: #bbbe64;
   width: 100%;
-
 }
 
 .top-menu ul {
   display: flex;
-  background-color: #FDFFFC;
+  background-color: #fdfffc;
   list-style-type: none;
   justify-content: space-around;
   padding: 0;
@@ -29,19 +29,18 @@ body {
   width: auto;
   align-items: center;
   margin: 0;
-  font-size: 16pt;
-  color: #494949;
+  font-size: 14pt;
+  color: #353535;
 }
 
 .top-menu li {
-  margin:  20px;
-
+  margin: 20px;
 }
 
 .top-menu a {
   text-decoration: none;
   color: #353535;
-
+  transition: color 0.5s ease;
 }
 
 .top-menu li:first-child {
@@ -54,29 +53,44 @@ ul {
 }
 
 .top-menu a:hover {
-  color: #41EAD4;
+  color: #41ead4;
 }
 
+.menu-name {
+  font-size: 30pt;
+  margin-bottom: 5px;
+}
 
+.menu-title {
+  font-size: 14pt;
+}
 
 .footer-menu {
   display: flex;
-  background-color: #FDFFFC;
+  background-color: #fdfffc;
   list-style-type: none;
-  justify-content: space-around;
-  padding: 0;
+  justify-content: flex-end;
+  padding: 0 30px;
   height: 100%;
   width: auto;
   align-items: center;
   margin: 0;
   font-size: 16pt;
-  color: #2E3532;
+  color: #353535;
 }
 
 .footer-menu ul {
+  flex-direction: row;
+  justify-content: flex-end;
+  display: flex;
   padding: 0px;
+  transition: color 0.5s ease;
 }
 
-.footer-menu > div {
-padding: 0 40px;
+.footer-menu li {
+  margin: 0 10px;
+}
+
+.footer-menu li:hover {
+  color: #41ead4;
 }
