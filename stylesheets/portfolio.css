@@ -1,0 +1,12 @@
+.git {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+img {
+  border: solid grey 0.1rem;
+  margin: 1rem;
+}

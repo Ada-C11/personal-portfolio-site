@@ -1,0 +1,9 @@
+h3 {
+  font-size: 4rem;
+}
+
+main li, p {
+  color: rgb(21, 44, 21);
+  text-align: center
+}
+
