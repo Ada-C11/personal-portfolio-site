@@ -69,29 +69,25 @@ nav ul li a:hover {
 /* footer  */
 
 footer {
-    border-top: 1px solid lightcoral;
-    padding: 1em;
-    /* background-color: #B5BAB6; */
+    padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 footer a {
     text-decoration: none;
+    color: #184A45;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FF6F61;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
 
-
-/* specific to index.html */
-
-.index-intro {
-    padding-top: 1em;
-    padding-right: 2em;
-    text-align: center;
-}
-
-/* specifc to about.html  */
+/* about.html  */
 
 .about-me > div {
     display: flex;
@@ -113,7 +109,6 @@ footer a:hover {
 
 .about-me > div article div {
     padding-bottom: .5em;
-    /* margin-top: 1em; */
     text-align: center;
     border: solid #00656B 2px;
     background-color: rgba(255, 110, 97, 0.151);
@@ -157,14 +152,13 @@ footer a:hover {
 
 #contact div a:hover {
     text-decoration: underline;
-    
 }
 
 #contact img {
     height: 1.5em;
 }
 
-/* specific to portfolio.html & code-journal.html*/
+/* index, portfolio.html & code-journal.html*/
 
 #projects ul, #nav-boxes ul {
     display: flex;
@@ -196,8 +190,6 @@ footer a:hover {
 }
 
 #nav-boxes ul li {
-    /* min-width: 6em;
-    min-height: 2em; */
     font-size: 1.25em;
     text-align: center;
     padding: 2em;
@@ -213,13 +205,12 @@ footer a:hover {
 }
 
 #projects ul li a, #nav-boxes ul li a {
-    /* this makes the clickable area more than just the link for accessiblity*/
     display: block; 
     text-decoration: none;
     color: black;
 }
 
-#projects ul li a:hover {
+#projects ul li a:hover, #nav-boxes ul li a:hover {
     text-decoration: underline;
     color: #FF6F61;
 }
