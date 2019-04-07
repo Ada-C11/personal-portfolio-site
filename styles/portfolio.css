@@ -70,7 +70,7 @@ a:after {
     }
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: row;
     flex: 100%;
@@ -83,31 +83,33 @@ a:after {
     letter-spacing: 0.15em;
 }
   
-  .works{
+.works {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-  }
+    background-color:rgb(216, 253, 241);
+    justify-content: center;
+    padding-bottom: 70px;
+}
   
-  div.gallery {
-      margin: 5px;
-      border: 1px solid #ccc;
-      width: 180px;
-  }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
     
-  div.gallery:hover {
-      border: 1px solid rgb(113, 204, 174);
-  }
+div.gallery:hover {
+    border: 1px solid rgb(113, 204, 174);
+}
     
-  div.gallery img {
-      width: 100%;
-      height: auto;
-  }
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
     
-  div.desc {
-      padding: 15px;
-      text-align: center;
-  }
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 
 footer {
     display: flex;

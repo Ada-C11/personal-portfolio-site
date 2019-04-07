@@ -96,6 +96,7 @@ a:after {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 25px;
     text-align: center;
+    padding-bottom: 60px;
 }
 
 section.icons {
