@@ -1,0 +1,48 @@
+
+body #headshot {
+    text-align: left;
+    transform: rotate(90deg);
+    width: 400px;
+    height: 300px;
+    margin-top: 2em;
+    margin-bottom: 1em
+
+}
+
+.left-container {
+    font-size: 2em;
+    width: 33%;
+}
+
+
+
+#introduction {
+    display: flex; 
+    margin-left: 5em;
+    margin-block-start: -.25em;
+    font-size: 4em;
+}
+
+#second-life {
+    text-align: center;
+    margin-block-start: 0em, 
+}
+
+
+/* color for left container and interests section */
+#fullstack, #languages {
+    color: plum
+}
+
+#new, #native {
+    color: pink
+}
+
+#interests {
+    color: darkturquoise;
+    font-size: 2em
+}
+
+#fashion, #Seattle {
+    color: white
+}

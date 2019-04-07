@@ -1,0 +1,107 @@
+/* sets up background img, text formatting, grid */
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    display: grid;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 20px;
+    
+    grid-template-areas: "header header"
+                         "main main"
+                         "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+.signature {
+    display: inline-block;
+    text-align: left;
+    margin-block-end: 0%;
+    font-size: 10em;
+    font-family: 'Homemade Apple', cursive;
+    color: 	 #ffe6e6;
+    text-shadow: 1px 2px #a7a4a445
+}
+
+
+.C {
+    left: 100px;
+    position: relative;
+    z-index: 1
+}
+
+#swan {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 12px;
+    z-index: 2
+}
+
+nav {
+    display: inline-block;
+    width: 60%;
+    margin-left: 166px;
+}
+#nav-pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    color: #ffe6e6;
+    font-size: 3em; 
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit
+}
+
+nav a:hover {
+    text-decoration: underline
+}
+
+#projects:hover {
+color: darkturquoise
+}
+
+#about:hover {
+color: pink
+}
+
+#blog:hover {
+color: plum
+}
+
+
+
+main {
+    grid-area: main 
+}
+
+footer {
+    margin-top: 5vh; 
+    grid-area: footer;
+    font-size: 3em;
+    text-align: center;
+}
+footer #social-media{
+    color: white
+}
+
+footer :hover {
+    color: plum
+}
