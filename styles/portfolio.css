@@ -1,0 +1,99 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+h1 {
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    border-bottom: .1rem solid #909092;
+
+}
+
+section div {
+    display: grid;
+    grid-auto-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        ". h3 h3 ."
+        ". h3 h3 .";
+    margin: 2rem;
+    background-color: #f7d100;
+    background-color: #90909281;
+    
+}
+
+
+section div h3 {
+    grid-area: h3;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    font-size: 3rem;
+}
+
+article {
+    grid-column: 2;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+@media (max-width: 500px) {
+    article {
+        grid-column: 1;
+    }
+}
+
+article a {
+    align-self: flex-start;
+    display: inline-block;
+    padding: .5em 1.3em;
+    margin: .5em;
+    text-align: center;
+    font-size: 1em;
+    color: #FFF;
+    border-radius: 5px;
+    background: #f7d100;
+    text-decoration: none;
+}
+
+.fa-github-alt {
+    font-size: 1rem;
+    color: white;
+}
+
+#hotel:hover h3:after {
+    content: '   :Object-Oriented Techniques, Ruby & TDD';
+    font-size: 1rem;
+    color: #909092;
+}
+
+
+#startrly:hover h3:after {
+    content: '   : HTML & CSS';
+    font-size: 1rem;
+}
+
+
+#slack-api:hover h3:after {
+    content: ' : API Requets & Posts, Pair Programming, & Testing';
+    font-size: 1rem;
+}
+
+section > div:hover {
+    padding: 2rem;
+    background-color: #f7d200;
+}
+
+
+
