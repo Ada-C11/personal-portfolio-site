@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
 nav {
     background-color: #4C7C90;
 }
@@ -36,4 +40,15 @@ nav a {
 nav a:hover {
     color: white;
     background: #345563;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: .5em 0;
+    text-align: center;
+    background-color: #5C7886;
+    color: white;
 }
