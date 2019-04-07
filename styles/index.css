@@ -5,6 +5,10 @@ main {
   justify-content: space-around;
 }
 
+main > p:first-child {
+  font-size: 2em;
+}
+
 img {
   border-radius: 50%;
   border: solid 2px black;
