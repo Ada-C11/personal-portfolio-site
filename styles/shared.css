@@ -4,6 +4,11 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,6 +22,16 @@ body {
   margin: 0 auto;
   background-color: #bbbe64;
   width: 100%;
+}
+
+.fab,
+.fas {
+  color: #353535;
+}
+
+.fab:hover,
+.fas:hover {
+  color: #b91372;
 }
 
 .top-menu ul {
@@ -53,7 +68,7 @@ ul {
 }
 
 .top-menu a:hover {
-  color: #41ead4;
+  color: #b91372;
 }
 
 .menu-name {
@@ -89,8 +104,4 @@ ul {
 
 .footer-menu li {
   margin: 0 10px;
-}
-
-.footer-menu li:hover {
-  color: #41ead4;
 }
