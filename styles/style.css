@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+.navbar li a {
+    text-decoration: none;
+}
+
 nav {
     background-color: tomato;
 }
