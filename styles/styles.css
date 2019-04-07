@@ -3,6 +3,10 @@
     color: white;
 }
 
+html {
+    background-image: linear-gradient( #5F4B8B, #CEC3D2);
+    height: 100%;
+}
 /* Formatting for navbar */
 nav {
     background: #5F4B8B;
@@ -29,11 +33,7 @@ nav [href] {
     text-decoration: none;
 }
 
-html {
-    background-image: linear-gradient( #5F4B8B, #CEC3D2);
-    height: 100%;
-}
-/* formatting for main */
+/* formatting for index main */
 
 main {
     display: flex;
@@ -72,4 +72,33 @@ footer {
     bottom: 0;
     width: 100%;
     height: min-content;
+}
+
+/* Formatting for Code Portfolio */
+/* Formatting for main */
+main.portfolio {
+    display: block;
+}
+
+main h2 {
+    text-align: left;
+}
+
+section.projects-group {
+    display: flex;
+    overflow-x: scroll;
+}
+
+article.project-block {
+    display: inline-block;
+    flex: 0 0 20%;
+    box-sizing: content-box;
+    margin: 0.5em;
+    padding: 0.25em;
+    background-color: black;
+
+}
+
+article.project-block p {
+    text-align: left;
 }
