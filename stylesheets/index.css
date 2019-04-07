@@ -13,8 +13,8 @@ h1 {
 
  
 main {
-  padding: 3em 3em;
 
+  padding: 3em 3em;
 }
 
 main {
@@ -33,6 +33,6 @@ main a {
 }
 
 img {
-  height: 250px;
+  height: 300px;
   border-radius: 50%;
 }
