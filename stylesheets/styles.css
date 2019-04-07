@@ -1,0 +1,82 @@
+body {
+  display: grid;
+  grid-template-rows: .5fr 1fr 1fr .5fr;
+  background-color: #F0F0F2;
+}
+
+header {
+  grid-row: 2;
+  text-align: center;
+  align-items; center;
+  color: #252226;
+}
+
+header :not(sub), nav {
+  font-family: 'Francois One', sans-serif;
+}
+
+sub, footer {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0px 70px 15px 70px;
+  padding-top: 50px;
+}
+
+h1:hover {
+  font-style: italic;
+  font-size: 4em;
+  color: #519DA6;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+sub {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+nav {
+  grid-row: 3;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:#519DA6;
+  font-style: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color:#519DA6;
+  font-style: italic;
+  color: 
+}
+
+#about-link {
+  margin-right: 30px;
+}
+
+#blog-link {
+  margin-left: 30px;
+}
+
+footer {
+  grid-row: 4;
+  text-align: center;
+  font-style: italic;
+}
