@@ -36,3 +36,44 @@ h1, h2 {
       -o-animation: fadein 2s; /* Opera < 12.1 */
          animation: fadein 2s;  
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: block;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    nav  {
+        padding: 0;
+    }
+
+    article h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        font-size: .8em;
+    }
+
+    nav ul::before {
+        display: none;
+    }
+
+    main {
+        grid-column: span 2;
+        min-height: 90vh;
+    }
+
+
+    footer {
+        height: 50px;
+    }
+  }

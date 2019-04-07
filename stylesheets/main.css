@@ -122,7 +122,8 @@ section p {
 }
 
 aside {
-    
+    display: flex;
+    justify-content: center;
 }
 
 article img {
@@ -164,3 +165,30 @@ article img {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: block;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        font-size: .8em;
+    }
+
+    nav ul::before {
+        display: none;
+    }
+
+    main {
+        grid-column: span 2;
+    }
+
+    footer {
+        height: 50px;
+    }
+  }
