@@ -1,0 +1,38 @@
+/* .main-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 400px auto;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 400px auto;
+}
+
+.blog-nav {
+  margin-top: 90px;
+  padding-top: 75px;
+  padding-right: 30px;
+  align-items: center;
+  background: peachpuff;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.blog-nav ul {
+  list-style-type: none;
+}
+
+.blog-nav li {
+  padding: 10px;
+}
+
+.blog-nav li a:visited {
+
+}
+
+.blog-nav li a:hover {
+  
+}
