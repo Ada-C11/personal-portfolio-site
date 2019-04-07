@@ -1,12 +1,12 @@
 #programming-projects {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
 
 .thumbnail {
-    margin:20px;
+    margin:40px;
     text-align: center;
 }
 
@@ -15,10 +15,17 @@
     padding-bottom:10px;
 }
 
+.thumbnail:hover p {
+    display: block;
+}
+
+.thumbnail p {
+    display: none;
+}
+
 
 @media only screen and (max-width:600px) {
     #programming-projects {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(9, 1fr);
     }
 }
