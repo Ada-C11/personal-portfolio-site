@@ -13,9 +13,6 @@ section > div {
     padding: 2rem;
 }
 
-section > div {
-    padding: 2rem;
-}
 
 section > div > div, div > ul {
     border: 2px solid #f7d100;
@@ -25,6 +22,7 @@ section > div > div, div > ul {
 
 section ul {
     text-align: left;
+    padding: 1rem;
 }
 
 section > div > div {
