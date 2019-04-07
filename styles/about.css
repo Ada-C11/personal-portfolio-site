@@ -4,8 +4,6 @@
   width: 640px;
   height: auto;
   background: white;
-  /* display: flex;
-  flex-wrap: nowrap; */
   border-radius: 5%;
   border: 1px solid black;
 }
@@ -20,4 +18,8 @@ article {
   border-top: solid 1px yellow;
   padding: 2rem;
   font-family: 'Abel', sans-serif;
+}
+
+strong {
+  background: yellow;
 }
