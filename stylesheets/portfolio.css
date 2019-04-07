@@ -1,0 +1,46 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-width: 3px; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color:#E5755D;
+}
+
+#coding-projects {
+    padding: 45px;
+    padding-top: 2em;
+    /* margin: 2em; */
+} 
+
+#coding-projects article {
+    display: flex
+}
+
+#coding-projects article p {
+    margin-left: 2em
+}
+
+h3 {
+    padding-top: 0px;
+    padding-bottom: 2em;
+    font-style: italic
+} 
+
+.github-links {
+    text-decoration: none;
+}
+
+.github-links:active .github-links:visited {
+    color: black
+}
+
+.github-links:hover {
+    color: #E5755D
+}
+
+footer {
+    padding-top: 3rem; 
+}
