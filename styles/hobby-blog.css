@@ -1,4 +1,4 @@
-/* CSS for Portfolio */
+/* CSS for blog */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -23,15 +23,36 @@ body {
     list-style-type: none;
     padding: 10px 30px;
 }
-/* a{
-    color: black;
-    text-decoration: none;
-}
-a:hover{
-    color: rgb(88, 226, 180);
-    text-decoration: none;
-} */
 
+article {
+    display: grid;
+    grid-template-columns: 
+      [full-start] minmax(1em, 1fr) 
+      [main-start] minmax(0, 56em) [main-end]
+      minmax(1em, 1fr) [full-end];
+    grid-gap: 1em;
+}
+  
+section {
+    grid-column: main;
+}
+  
+figure {
+    grid-column: full;
+}
+  
+article > * {
+    background-color: rgb(216, 253, 241);
+    padding: 2em;
+}
+  
+figure {
+    text-align: center;
+}
+  
+img {
+    max-width: 100%;
+}
 /* Pulled this underline css animation from a code pen */
 a {
     color: black;
@@ -62,54 +83,11 @@ a:after {
     left: 0; 
 }
 
+
 @media screen and (max-height: 300px) {
     ul {
           margin-top: 40px;
     }
-}
-
-.intro {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(216, 253, 241);
-    padding-bottom: 40px;
-}
-
-.intro h1 {
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.15em;
-    background-color: rgb(255, 255, 255);
-    font-size: 45px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.intro h3 {
-    text-align: center;
-    font-size: 18px;
-}
-
-.intro p {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 60px;
-}
-
-section.icons {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    padding: 25px;
-    font-size: 14px;
-}
-
-section.icons a{
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 footer {

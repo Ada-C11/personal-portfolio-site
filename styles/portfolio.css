@@ -88,7 +88,7 @@ a:after {
     flex-wrap: wrap;
     background-color:rgb(216, 253, 241);
     justify-content: center;
-    padding-bottom: 70px;
+    padding-bottom: 70px; 
 }
   
 div.gallery {
