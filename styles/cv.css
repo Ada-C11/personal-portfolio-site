@@ -1,0 +1,88 @@
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "ada ."
+        ". uw"
+        "bc .";
+}
+
+
+section > div {
+    padding: 2rem;
+}
+
+section > div {
+    padding: 2rem;
+}
+
+section > div > div, div > ul {
+    border: 2px solid #f7d100;
+    text-align: center;
+    margin-top: 0;
+}
+
+section ul {
+    text-align: left;
+}
+
+section > div > div {
+    color: white;
+    background-color: #f7d100;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#ada {
+    grid-area: ada;
+}
+
+#uw {
+    grid-area: uw;
+}
+
+#bc {
+    grid-area: bc;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        ". data-analyst"
+        "marketing-analyst ."
+        ". ms"
+        "amazon .";
+}
+
+#data-analyst {
+    grid-area: data-analyst;
+}
+
+#marketing-analyst {
+    grid-area: marketing-analyst;
+}
+
+#ms {
+    grid-area: ms;
+}
+
+#amazon {
+    grid-area: amazon;
+}
+
+.date-range {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+
