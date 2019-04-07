@@ -24,6 +24,10 @@ ul {
   padding: 0px
 }
 
+li {
+  text-align: center;
+}
+
 #name > a {
   font-size: 1.5em;
   font-weight: bold;
@@ -80,7 +84,7 @@ nav, main, footer {
 
 @media screen and (max-width: 604px) {
   .container {
-    grid-template-rows: 30% 1fr 10%;
+    grid-template-rows: 25% 1fr 10%;
   }
 
   .box {
