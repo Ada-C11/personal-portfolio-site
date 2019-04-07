@@ -1,0 +1,61 @@
+body {
+    background-color: #FFDDCC;
+    color: black;
+    
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0%
+}
+
+#main-page-blurb {
+    font-style: italic;
+    margin-bottom: 5% 
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    justify-content: center
+}
+
+.nav-links {
+    text-decoration: none;
+    padding: 1em
+}
+
+.nav-links:active li:visited {
+    color: black
+}
+
+.nav-links:hover {
+    color: #E5755D
+}
+
+main {
+    padding: 5em;
+    padding-top: 0%
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 40px
+}
