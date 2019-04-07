@@ -53,14 +53,12 @@ a:visited {
 
 a:hover {
   color: black;
-  background-color: #C06C84;
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: stretch;
   padding-top: 180px;
   padding-bottom: 125px;
   background: white;
