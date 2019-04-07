@@ -33,7 +33,7 @@ nav ul{
     padding: 1em
 }
 
-.nav-links:active li:visited {
+.nav-links:active .nav-links:visited {
     color: black
 }
 
