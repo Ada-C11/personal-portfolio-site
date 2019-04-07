@@ -40,6 +40,10 @@ header img {
     width: 73px;
 }
 
+header h1 {
+    padding-top: 7px;
+}
+
 nav {
     background: rgb(255, 255, 255, 0.4);
 }
@@ -68,6 +72,10 @@ nav li:hover {
     background-color: rgb(80, 55, 3, 0.2);
 }
 
+nav li:hover a {
+    color:  rgb(80, 55, 3);
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -94,8 +102,9 @@ article h2 {
 }
 
 section {
-    height: 50%;
-    width: 50%;
+    box-shadow:  2px 2px 8px darkgrey;
+    /* height: 50%; */
+    width: 40vw;
     border-radius: 25px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -110,6 +119,10 @@ section p {
     line-height: 1.5em;
     padding-bottom: 1.5em;
     margin: 0;
+}
+
+aside {
+    
 }
 
 article img {
