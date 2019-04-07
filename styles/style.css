@@ -7,17 +7,18 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
-nav {
-  background: #f67280;
+.main-nav {
+  background: #35537D;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 60px;
+  height: 90px;
   padding-top: 10px;
+  padding-right: 30px;
 }
 
-nav ul {
+.main-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,31 +26,18 @@ nav ul {
   padding-right: 20px;
 }
 
-nav li {
+.main-nav li {
   float: right;
 }
 
-nav li:after {
-  /* position: absolute; */
-  content: "";
-  width: 0px;
-  height: 7px;
-  left: 0;
-  top: 50%;
-  z-index: -1;
-  /* -webkit-transition: width .5s ease-in-out; */
-  transition: width .5s ease-in-out;
-  transition-property: width;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
-  background:  #35537D;
-}
-
-nav li a {
+.main-nav li a {
   display: block;
   text-align: center;
   padding: 14px 16px;
+}
+
+#nav-bars {
+  margin-top: 50px;
 }
 
 #name-link {
@@ -76,34 +64,72 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 180px;
-  padding-bottom: 125px;
+  padding-top: 200px;
   background: white;
   height: 200px;
-  text-align: center;
-  border-bottom: 2px solid #F8B195;
+}
+
+header h1 {
+  color: #f67280;
+  margin: -3px;
+}
+
+header p {
+  font-size: 1.2em;
+  padding-bottom: 10px;
 }
 
 .button {
   border-radius: 100px;
-  padding: 15px 32px;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: #C06C84;
-  font-size: 1.3em;
+  background-color: #F67280;
 }
 
 section {
   background: white;
-  height: 500px;
+  margin: 50px;
+  padding-top: 90px;
+  border-top: 5px solid #6C5B7B;
+}
+
+section img {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+section p {
+  word-wrap: none;
+}
+
+.peach-bar {
+  background: #F8B195;
+  height: 10px;
+}
+
+.pink-bar {
+  background: #F67280;
+  height: 10px;
+}
+
+.mauve-bar {
+  background: #C06C84;
+  height: 10px;
+}
+
+.purple-bar {
+  background: #6C5B7B;
+  height: 10px;
 }
 
 footer {
   background: #35537D;
-  height: 50px;
   text-align: center;
   color: white;
+  position: bottom;
 }
 
 
