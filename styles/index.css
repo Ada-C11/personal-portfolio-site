@@ -41,7 +41,7 @@ nav ul {
 
 nav a {
   display: inline-block;
-  width: 10rem;
+  width: 7rem;
   height: 1.5rem;
   background-color: white;
   border: 1px solid black;
@@ -113,6 +113,7 @@ h2, span {
 }
 
 footer {
+  margin-top: 1rem;
   grid-row: 3;
   grid-column: 1;
   width: 9rem;

@@ -1,4 +1,4 @@
-#articles {
+#about {
   grid-column: 2;
   grid-row: 2;
   width: 640px;
@@ -10,7 +10,7 @@
   border: 1px solid black;
 }
 
-#articles h2 {
+h2 {
   padding-left: 2rem;
 }
 
@@ -20,8 +20,4 @@ article {
   border-top: solid 1px yellow;
   padding: 2rem;
   font-family: 'Abel', sans-serif;
-}
-
-article p:nth-child(2) {
-  background: yellow;
 }

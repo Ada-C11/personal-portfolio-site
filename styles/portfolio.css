@@ -36,6 +36,10 @@ section ul {
   font-family: 'Abel', sans-serif;
 }
 
+section li:first-child {
+  padding-bottom: 1rem;
+}
+
 section a {
   text-decoration: none;
 }
