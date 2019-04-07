@@ -2,6 +2,7 @@ body {
   display: grid;
   grid-template-rows: .5fr 1fr 1fr .5fr;
   background-color: #F0F0F2;
+  font-family: 'Francois One', sans-serif;
 }
 
 header {
@@ -9,10 +10,6 @@ header {
   text-align: center;
   align-items; center;
   color: #252226;
-}
-
-header :not(sub), nav {
-  font-family: 'Francois One', sans-serif;
 }
 
 sub, footer {
@@ -44,27 +41,25 @@ sub {
 
 nav {
   grid-row: 3;
-  height: 50px;
 }
 
-nav ul {
+ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-nav ul li a {
+a {
   text-decoration: none;
   color:#519DA6;
   font-style: bold;
 }
 
-nav ul li a:hover {
+a:hover {
   text-decoration: none;
   color:#519DA6;
   font-style: italic;
-  color: 
 }
 
 #about-link {
