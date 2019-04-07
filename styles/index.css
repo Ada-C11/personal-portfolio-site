@@ -1,6 +1,7 @@
 
 body {
     color: #99A0B0;
+    height: 100%
 }
 
 h1 {
@@ -36,5 +37,11 @@ p {
 #name {
     /* color: #10F0F0; */
     color: #f7d100;
+}
+
+footer {
+    margin-top: 18rem;
+    margin-left: 4rem;
+    text-align: left;
 }
 

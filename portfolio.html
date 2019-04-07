@@ -1,33 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hobby</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/portfolio.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">home</a></li>
+                <li><a id="first-link" href="index.html">home</a></li>
                 <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="code-journal.html">code-journal</a></li>
-                <li><a href="hobby.html">hobby</a></li>
+                <li><a href="cv.html">cv</a></li>
+                <li><a href="blog.html">blog</a></li>
                 <li><a href="about.html">about</a></li>
             </ul>
         </nav>
 
+        <aside>
+                <a class = "fa fa-linkedin" href="https://www.linkedin.com/in/sophearychiv/"></a>
+                <a class="fa fa-github-square" href="https://github.com/sophearychiv"></a>
+        </aside>
+
     </header>
-
+    
     <main>
+        <h1>Projects:</h1>
+        <section>
+            <div id="hotel">
+                <h3>Hotel</h3>
+            </div>
+            <article>
+                <ul>
+                    <li>Designed a hotel reservation system using object-oriented principles</li>
+                    <li>Created and instantiated classes with attributes</li>
+                    <li>Created classes and instance methods within the classes</li>
+                    <li>Wrote pseudocode and created tests to drive the creation of the code</li>
+                </ul>
+                <!-- <a class="fa fa-github-alt" href="https://github.com/sophearychiv/hotel">Project</a> -->
+                <a href="https://github.com/sophearychiv/hotel"><i class="fa fa-github-alt"></i>Project</a>
+            </article>
+        </section>
 
+        <section>
+            <div id="startrly">
+                <h3>Startrly</h3>
+            </div>
+            <article>
+                <ul>
+                    <li>Practiced layout techniques using CSS</li>
+                    <li>Wrote DRY, readable CSS code using CSS selectors with classes and ids</li>
+                </ul>
+                <a href="https://github.com/sophearychiv/startrly"><i class="fa fa-github-alt"></i>Project</a>
+            </article>
+        </section>
+
+        <section>
+            <div id="slack-api">
+                <h3>Slack-Api</h3>
+            </div>
+            <article>
+                <ul>
+                    <li>Sent requests to and received responses from an API</li>
+                    <li>Worked with data from an external source</li>
+                    <li>Mocked an external dependency during testing</li>
+                    <li>Designed and implemented a program using inheritance</li>
+                    <li>Utilized pair programming with another classmate</li>
+                </ul>
+                <a href="https://github.com/sophearychiv/slack-cli"><i class="fa fa-github-alt"></i> Project</a>
+            </article>
+        </section>
     </main>
 
     <footer>
-
+        &copy; Sopheary Chiv
     </footer>
     
 </body>
