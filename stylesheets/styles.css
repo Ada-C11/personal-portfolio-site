@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #4C7C90;
+    background-color: #477A8F;
 }
 
 nav ul {
@@ -25,9 +25,17 @@ nav ul {
 nav li {
     display: inline-block;
     font-size: 1.4em;
-    line-height: 2.5em;
-    height: 2.5em;
+    line-height: 5vh;
+    height: 5vh;
     width: 7em;
+}
+
+@media only screen and (max-width: 650px) {
+    nav li {
+        line-height: 4vh;
+        height: 4vh;
+        width: 100%;
+    }
 }
 
 nav a {
@@ -39,7 +47,7 @@ nav a {
 
 nav a:hover {
     color: white;
-    background: #345563;
+    background: #365d6d;
 }
 
 footer {
@@ -47,8 +55,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: .5em 0;
+    padding: 1vh 0;
     text-align: center;
-    background-color: #5C7886;
+    background-color: #557687;
     color: white;
 }
