@@ -1,17 +1,16 @@
 html {
   background-color: white;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
 }
 
 body {
-  width: 80%;
-  height: 100%;
+  width: 95%;
+  min-height: 48vw;
   background: url("../images/background.jpeg") no-repeat center center fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top;
+  background-position: top center;
+  font-family: 'Maven Pro', sans-serif;
+
 }
 
 header {
@@ -28,9 +27,12 @@ h1 {
 
 .nav {
   display: flex;
-  flex-flow: column nowrap;
 }
 
 li {
   list-style: none;
+  padding-left: 1em;
+  margin: 0em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
 }
