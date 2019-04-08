@@ -1,0 +1,70 @@
+main {
+    text-align: center;
+    margin-top: 12vh;
+}
+
+h1 {
+    padding-top: 3em;
+    font-size: 2em;
+}
+
+#project-tile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.project-tile {
+    color: #30474F;
+    border: 1px solid #30474F;
+    width: 250px;
+    height: 148px;
+    margin: 50px;
+    text-decoration: none;
+}
+
+.project-tile:hover {
+    opacity: 0.5;
+}
+
+img {
+    width: 250px;
+    height: 148px;
+}
+
+.project-name {
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+    main {
+        margin-top: 4vh;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+    main {
+        margin-top: 8vh;
+    }
+    #project-tile-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 4vh;
+    }
+    .left {
+        margin: 50px auto 50px auto;
+    }
+    .right {
+        margin: 50px auto 50px auto;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #project-tile-container {
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px 0 150px 0;
+    }
+}
