@@ -74,6 +74,12 @@ main.index a, .travels-block div {
     padding-bottom: 1em;
     margin: 0.5em;
 }
+
+main.index img {
+    height: 200px;
+    width: 200px;
+}
+
 main.index img, .travels img {
     display: block;
     margin: 1em;
