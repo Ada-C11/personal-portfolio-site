@@ -1,6 +1,18 @@
-main {
+.about-container {
     color: slategray;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 20%
+    margin-left: .25em;
+    margin-right: 60%;
+    margin-bottom: 10em
+}
+
+.about {
+    font-size: 1.5em
+}
+
+main h1 {
+    color: white;
+    font-size: 7em;
+    letter-spacing: .03em;
+    margin-top: -.5em;
+    margin-bottom: 0em
 }

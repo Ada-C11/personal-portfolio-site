@@ -7,9 +7,20 @@
     margin-bottom: 0em
 }
 
+.articles h2 {
+    font-size: 2em;
+    color: darkturquoise
+}
+
+.articles h2:hover {
+    text-decoration: underline;
+    color:white
+}
+
 .articles {
     color: gray;
-    padding: 2em 2em 
+    padding: 2em 2em;
+    padding-right: 20%
 }
 
 img {

@@ -8,9 +8,9 @@ main {
 body #headshot {
     text-align: left;
     transform: rotate(90deg);
-    height: 35vh;
+    height: 10em;
     margin-top: 2em;
-    margin-bottom: 1em
+    margin-bottom: 1em;
 
 }
 
@@ -19,13 +19,14 @@ body #headshot {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2em
+    font-size: 2em;
+    margin-top: -1em;
 }
 
 
 #introduction {
     margin-block-start: -.25em;
-    font-size: 7em;
+    font-size: 5em;
     text-align: center;
     width: 100%;
     grid-area: intro 
@@ -34,14 +35,15 @@ body #headshot {
 #second-life {
     text-align: center;
     grid-area: intro;
-    margin-top: 4em;
+    margin-top: 3em;
     font-size: 2em;
 }
 
 
 /* color for left container and interests section */
 #fullstack, #languages {
-    color: plum
+    color: plum;
+    margin-block-end: .5em;
 }
 
 #new, #native {
@@ -54,8 +56,8 @@ body #headshot {
     grid-area: right-container;
     display: inline-flex;
     flex-direction: column;
-    margin-left: 4em;
     justify-content: center;
+    align-items: center;
 }
 
 #fashion, #Seattle {
@@ -73,7 +75,7 @@ body #headshot {
     font-size: 1.5em;
     color: white;
     border-radius: 25px;
-    border: white solid;
+    border: white solid 1px;
     background-color:darkturquoise;
     padding: 10px 10px;
 }
