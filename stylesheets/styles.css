@@ -3,19 +3,17 @@
 .container {
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
-    width: 100%;
     background: linear-gradient(rgb(168, 114, 168), white);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
 }
 
 ul {
     list-style-type: none;
 }
 
-h3 {
+h3, h4, h5, h6 {
     margin-top: 0%;
+    color: rgb(65, 40, 83);
 }
 
 nav ul {
@@ -27,20 +25,34 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(65, 40, 83);
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: rgb(65, 40, 83);
 }
 
 a:hover {
     color: grey;
 }
 
+.it-me img {
+    height: 70%;
+    width: 70%;
+    float: left;
+}
+
+.it-me {
+
+    margin-left: 2.5em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: left;
+}
+
 footer {
-    color: hotpink;
+    color: rgb(65, 40, 83);
     font-size: smaller;
     text-align: left;
     position:fixed;
