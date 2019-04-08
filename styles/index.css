@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+footer {
+  color: white;
+}
+
 /* body {
   font-family: 'Maven Pro', sans-serif;
   display: grid;

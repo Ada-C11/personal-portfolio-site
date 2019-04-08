@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header {
+  margin: auto 0;
+}
+
+sub { 
+  display: block;
+  text-align: right;
+  padding-top: 1.5em;
+  font-size: .7em;
+  line-height: 3em;
+}
+
+section, article {
+  display: grid;
+  max-width: 80%;
+}
+
+section img {
+  height: 25vw;
+  width: 40vw;
+}
