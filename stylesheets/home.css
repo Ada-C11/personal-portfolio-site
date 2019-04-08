@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  grid-template: .5fr 1fr 1fr .5fr / 1fr;
+}
+
+header {
+  grid-area: 2 / 1;
+  text-align: center;
+  align-items; center;
+  color: #252226;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0px 70px 15px 70px;
+  padding-top: 50px;
+}
+
+h1:hover {
+  font-style: italic;
+  color: #519DA6;
+}
+
+sub {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+nav {
+  grid-area: 3 / 1;
+}
+
+ul {
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+ul li {
+  margin: 0 30px 0 30px;
+}
+
+footer {
+  grid-row: 4;
+  grid-column: 1;
+}
