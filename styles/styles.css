@@ -69,18 +69,18 @@ main.index {
     padding: 1em;
 }
 
-main.index a {
+main.index a, .travels-block div {
     background-color: white;
     padding-bottom: 1em;
     margin: 0.5em;
 }
-main.index img {
+main.index img, .travels img {
     display: block;
     margin: 1em;
     background-color: white;
 }
 
-main.index figcaption {
+main.index figcaption, .travels figcaption {
     visibility: hidden;
     text-align: center;
     color: black;
@@ -121,7 +121,45 @@ main.journal {
 }
 
 /* Formatting for About */
-article.books img {
+article.music img, article.travels img,  {
     width: 20%;
     display: inline-block;
+}
+article.books img, article.travels img {
+    width: 200px;
+    height: 311px;
+    padding: 1em;
+}
+
+article.music img {
+    width: 168px;
+    height: 168px;
+    padding: 1em;
+}
+
+div.books-block {
+    display: flex;
+    overflow-x: scroll;
+    height: 350px;
+}
+
+.travels > div {
+    display: flex;
+    overflow-x: scroll;
+    height: 400 px;
+}
+
+div.albums-block {
+    display: flex;
+    overflow-x: scroll;
+    height: 220px;
+}
+
+.travels img {
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+.travels figcaption {
+    visibility: visible;
 }
