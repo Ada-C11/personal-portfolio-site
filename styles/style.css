@@ -104,6 +104,10 @@ section.icons a{
     padding-right: 20px;
 }
 
+section.icons a:hover{
+   color: aquamarine;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
