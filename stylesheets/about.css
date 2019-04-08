@@ -1,0 +1,30 @@
+.header {
+    background: #B8D8D8;
+    font-family: 'Josefin Slab', serif;
+    height: 15vh;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.about-text {
+    background: #B8D8D8;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+    
+.about-text img {
+    grid-column: 1;
+}
+
+
+.paragraphs p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14pt;
+    margin-left: 1rem;
+    margin-top: 0;
+}
+

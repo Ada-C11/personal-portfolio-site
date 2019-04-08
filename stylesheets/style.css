@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li a {
+    color: #1F2833;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+nav {
+    background-color: #FE5F55;
+}
+
+.main-page-header{
+    font-size: 2rem;
+}
+header {
+    align-items: center;
+    background-color: #B8D8D8;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Slab', serif;
+    height: 500px;
+    justify-content: center;
+}
+
+
+footer {
+    align-items: flex-start;
+    background-color: #4F6367;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    padding-left: 2rem;
+}
+
+.navbar, footer {
+    font-family: 'Roboto', sans-serif;
+}
