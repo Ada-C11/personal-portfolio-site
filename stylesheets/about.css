@@ -1,8 +1,23 @@
 .about-text {
-    display: flex;
-    flex-direction: row;
+    background: #B8D8D8;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr;
+    padding: 5%;
+}
+    
+.about-text img {
+    grid-column: 1;
 }
 
-.about-text img {
-    display: inline-block;
+/* .paragraphs {
+    grid-column: 2;
+} */
+
+.paragraphs p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14pt;
+    margin-left: 1rem;
+    margin-top: 0;
 }
+
