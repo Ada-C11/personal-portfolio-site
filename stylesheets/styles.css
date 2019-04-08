@@ -108,7 +108,7 @@ h3 {
 }
 
 section {
-    padding: 100px;
+    padding: 200px;
 }
 
 .about {
@@ -166,7 +166,7 @@ section {
 }
 
 .portfolio {
-    padding: 125px 0 50px 0;
+    padding: 125px 200px 50px 200px;
 }
 
 .portfolio a:hover {
