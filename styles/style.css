@@ -36,12 +36,17 @@ body {
   padding: 14px 16px;
 }
 
+.main-nav li:nth-child(2) {
+  padding-right: 10px;
+}
+
 #nav-bars {
   margin-top: 50px;
 }
 
 #name-link {
   float: left;
+  padding-left: 30px;
 }
 
 a {
