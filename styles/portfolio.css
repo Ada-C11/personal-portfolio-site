@@ -1,0 +1,12 @@
+.parallax { 
+  background-image: url("../images/shells.jpg");
+}
+
+header > h1 {
+  padding: .5em;
+  font-size: 3em;
+}
+
+.parallax2 { 
+  background-image: url("../images/bowl.jpg");
+}
