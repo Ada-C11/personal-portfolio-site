@@ -1,17 +1,15 @@
 body {
     text-align: left;
 }
+
+main {
+    grid-column:2/7;
+}
+
 h2{
     color:darkgrey;
 }
-.grid-container {
-    display:grid;
-    grid-template-columns: repeat(6, 1fr)
-}
 
-section ul:empty:before{
-    content: "Nothing to see here yet!"
-}
 aside {
     margin: 20px;
     grid-column:1/2;
@@ -29,18 +27,23 @@ aside li {
     margin:20px; 
 }
 
-main {
-    grid-column:2/7;
+section ul:empty:before{
+    content: "Nothing to see here yet!"
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+.post {
+    background-color: #433459b3;
+    padding:20px;
+    margin:20px;
 }
 
 main.post {
     width:80%;
     margin:auto;
-}
-.post {
-    background-color: #433459b3;
-    padding:20px;
-    margin:20px;
 }
 
 @media only screen and (max-width:950px) {
