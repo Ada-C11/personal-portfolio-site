@@ -5,10 +5,7 @@ body {
 
 
 .parallax {
-  /* The image used */
   background-image: url("../images/bwgl.jpg");
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,3 +24,11 @@ main li, p {
   text-align: center
 }
 
+p {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.update {
+  font-size: 0.75rem
+}

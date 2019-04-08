@@ -3,15 +3,8 @@ body {
   grid-template: .05fr .05fr .05fr .05fr 1fr .05fr .05fr/ 1fr 
 }
 
-h3 {
-
-}
-
 .parallax {
-  /* The image used */
   background-image: url("../images/bwdp.jpg");
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
