@@ -13,18 +13,18 @@ body {
 
 h1 {
     font-size: 1.5em;
-    padding-left: 1em;
+    margin-top: 2em;
     text-align: center;
 }
 
 h2 {
     font-size: 1.25em;
-    padding-left: 1em;
+    /* padding-left: 1em; */
     text-align: center;
 }
 
-h3, h4 {
-    padding-left: 1em;
+h3 {
+    /* padding-left: 1em; */
     text-align: center;
 }
 
@@ -40,10 +40,6 @@ nav > ul {
     flex-wrap: wrap;
 }
 
-nav > ul > div > ul {
-    /* border: red 1px solid; */
-}
-
 nav ul li {
     padding: 1em;
     margin: 1em;
@@ -53,7 +49,6 @@ nav ul li a {
     text-decoration: none;
     color: #184A45;
 }
-
 
 nav ul li a:hover {
     text-decoration: underline;
@@ -65,11 +60,10 @@ nav ul li a:hover {
     color: #FF6F61;
 }
 
-
 /* footer  */
 
 footer {
-    padding-top: 3em;
+    padding-top: 5em;
     padding-bottom: 2em;
 }
 
@@ -111,13 +105,13 @@ footer a:hover {
     padding-bottom: .5em;
     text-align: center;
     border: solid #00656B 2px;
-    background-color: rgba(255, 110, 97, 0.151);
+    background-color: rgba(255, 110, 97, 0.089);
     
 }
 .about-me > div article p {
     padding: 1em;
     border: solid #00656B 2px;
-    background-color: rgba(255, 110, 97, 0.151);
+    background-color: rgba(255, 110, 97, 0.089);
 }
 
 .about-me > div img {
@@ -127,17 +121,21 @@ footer a:hover {
 
 #contact h2 {
     padding: 1.5em;
+    text-align: center;
+    /* padding-left: 3em; */
 }
 
 #contact > div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 3em;
+    justify-content: center;
 }
 
 #contact div div {
-    padding-left: 2em;
-    padding-bottom: 1.5em;
+    padding-right: 3em;
+    padding-bottom: 2em;
 }
 
 #contact div div img {
@@ -183,7 +181,7 @@ footer a:hover {
 }
 #projects ul li, #nav-boxes ul li {
     border: solid #00656B; 2px;
-    background-color: rgba(255, 110, 97, 0.151);
+    background-color: rgba(255, 110, 97, 0.089);
     padding: 1em;
     margin: 1em;
     max-width: 20em;
@@ -201,7 +199,7 @@ footer a:hover {
     padding: 1em;
     margin: 1em;
     border: solid #00656B;
-    background-color: rgba(255, 110, 97, 0.151);
+    background-color: rgba(255, 110, 97, 0.089);
 }
 
 #projects ul li a, #nav-boxes ul li a {
