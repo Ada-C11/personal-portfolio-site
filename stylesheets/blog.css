@@ -33,8 +33,12 @@ main {
     grid-column:2/7;
 }
 
+main.post {
+    width:80%;
+    margin:auto;
+}
 .post {
-    background-color:rgba(255, 255, 255, 0.2);
+    background-color: #433459b3;
     padding:20px;
     margin:20px;
 }
