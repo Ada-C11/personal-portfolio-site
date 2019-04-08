@@ -1,0 +1,35 @@
+h1 {
+  background-color: white;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+* {
+ background-image: url("images/whitewall.jpg");
+}
+
+p {
+  color: hotpink;
+}
+
+div.portfolio_images {
+    /* display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0; */
+
+    height: 500px;
+    width: auto;
+
+    display: grid;
+    grid-template: auto / auto auto auto;
+}
+
+.portfolio_images img {
+    border-radius: 50%;
+    /*object-fit: cover;*/
+    width: 100%;
+    max-height: 100%;
+}
