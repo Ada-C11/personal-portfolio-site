@@ -143,6 +143,10 @@ main {
     height: auto;
 }
 
+#photos {
+    text-align: center;
+}
+
 footer {
     position: fixed;
     left: 0;
