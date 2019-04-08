@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans", sans-serif;
+}
+
+.main-nav {
+  background: #35537D;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.main-nav li {
+  float: right;
+}
+
+.main-nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.main-nav li:nth-child(2) {
+  padding-right: 10px;
+}
+
+#nav-bars {
+  margin-top: 50px;
+}
+
+#name-link {
+  float: left;
+  padding-left: 30px;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  background: white;
+  height: 200px;
+}
+
+header h1 {
+  color: #f67280;
+  margin: -3px;
+}
+
+header p {
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.button {
+  border-radius: 100px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #F67280;
+}
+
+main {
+  background: white;
+  margin: 50px;
+  padding-top: 90px;
+  border-top: 5px solid #6C5B7B;
+}
+
+main img {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+main p {
+  word-wrap: none;
+}
+
+.peach-bar {
+  background: #F8B195;
+  height: 10px;
+}
+
+.pink-bar {
+  background: #F67280;
+  height: 10px;
+}
+
+.mauve-bar {
+  background: #C06C84;
+  height: 10px;
+}
+
+.purple-bar {
+  background: #6C5B7B;
+  height: 10px;
+}
+
+footer {
+  background: #35537D;
+  text-align: center;
+  color: white;
+  position: bottom;
+}
+
+

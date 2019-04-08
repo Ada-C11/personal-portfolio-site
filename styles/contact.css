@@ -1,0 +1,27 @@
+.contact {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.contact-list {
+  margin-top: -80px;
+  text-align: left;
+  padding-bottom: 30%;
+  padding-left: 41%;
+  border-top: none;
+  padding-top: 0;
+}
+
+.contact-list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  padding: 9px;
+}
+
+.contact-list a {
+  color: black;
+  font-size: 1.4em;
+}

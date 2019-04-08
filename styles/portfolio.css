@@ -1,0 +1,17 @@
+article {
+  padding: 30px 100px 30px 100px;
+  display: inline-block;
+}
+
+article h2 {
+  padding-left: 150px;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 250px;
+  width: auto;
+  float: left;
+}
+
