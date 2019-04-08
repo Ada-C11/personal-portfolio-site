@@ -3,6 +3,7 @@ ul {
     margin:0;
     padding:0;
     display:inline-block;
+    padding-inline-start: 0px;
 }
 
 h1, h2, h3 {
@@ -31,7 +32,7 @@ nav ul{
 }
 
 nav li{
-    margin:20px;
+    margin:5px;
     font-size: 1.5em;
 }
 main {

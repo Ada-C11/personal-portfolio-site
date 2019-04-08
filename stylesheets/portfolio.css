@@ -21,7 +21,7 @@
 }
 
 .thumbnail img {
-    height:150px
+    width:200px
 }
 
 .thumbnail p {
@@ -34,18 +34,23 @@
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:812px) {
     #programming-projects {
         grid-template-columns: 1fr;
         
     }
 
-    main{
-        padding: 0px;
-    }
+}
 
-    .thumbnail img{
-        max-width: 300px;
+@media only screen and (min-width:813 && max-width:1024px) {
+    #programming-projects {
+        grid-template-columns: 1fr 1fr;
+        
     }
-
+    .thumbnail {
+        margin-left:0;
+        margin-right:0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
