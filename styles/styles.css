@@ -100,11 +100,11 @@ nav ul {
 }
 
 .title:after {
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 50%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
+    content: ""; /* Lets pseudo element work. */ 
+    display: block; /* Puts pseudo element on its own line. */
+    margin: 0 auto; 
+    width: 50%; 
+    padding-top: 20px; 
     border-bottom: 2px solid;
 }
 
