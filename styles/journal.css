@@ -1,0 +1,14 @@
+#journal {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#journal article {
+    background-color: lavenderblush;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#journal ul {
+    padding-left: 0;
+    line-height: .3;
+    padding-top: 1vh;
+}
