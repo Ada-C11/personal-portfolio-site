@@ -20,14 +20,32 @@
     font-family: "Josefin Sans"
 }
 
+.thumbnail img {
+    height:150px
+}
+
 .thumbnail p {
     padding:15px;
     font-size:0.7em;
+}
+
+.thumbnail:hover{
+    border: 1px solid #EE5622
 }
 
 
 @media only screen and (max-width:600px) {
     #programming-projects {
         grid-template-columns: 1fr;
+        
     }
+
+    main{
+        padding: 0px;
+    }
+
+    .thumbnail img{
+        max-width: 300px;
+    }
+
 }

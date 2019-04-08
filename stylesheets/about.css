@@ -1,5 +1,5 @@
 #hobbies li{
-    text-align: left;
+    text-align: justify;
     font: 1em "Josefin Sans";
     list-style-type: circle;
 }
@@ -9,14 +9,14 @@
 }
 
 main {
-    text-align:justify;
+    text-align:left;
     margin:0 4em 0 4em;
     padding:1em 3em 1em 3em;
 }
 
 .profile-photo {
-    max-width:300px ;
-    max-height:300px ;
+    max-width:250px ;
+    max-height:250px ;
     border-radius: 20%;
     float:left;
     margin-right:30px;
@@ -34,3 +34,8 @@ main {
     justify-content: flex-start;
 }
 
+@media only screen and (max-width:600px) {
+    main {
+        margin:0;
+    }
+}
