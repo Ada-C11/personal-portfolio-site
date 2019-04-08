@@ -1,0 +1,19 @@
+.main {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #03D500, 0 0 30px rgb(213, 0, 167), 0 0 40px rgb(213, 0, 17), 0 0 55px rgb(213, 0, 167), 0 0 75px rgb(213, 0, 167);
+}
+
+.main p {
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main h2{
+    font-size: 2.2em;
+}
+
+.main h3 {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-decoration: underline;
+}
