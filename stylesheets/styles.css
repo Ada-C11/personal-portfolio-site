@@ -70,3 +70,16 @@ footer {
     background-color: #557687;
     color: white;
 }
+
+#profile-link {
+    font-size: 1.75em;
+    padding-left: .5em;
+}
+
+.fa {
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.5;
+  }
