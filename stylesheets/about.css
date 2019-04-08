@@ -1,0 +1,10 @@
+main li {
+  text-align: left;
+  display: inline-block;
+  background-color: white;
+  margin: 10px;
+}
+
+main li:hover {
+  background-color: lightblue;
+}

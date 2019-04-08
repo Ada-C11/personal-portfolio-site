@@ -1,0 +1,7 @@
+main a {
+  color: green;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
