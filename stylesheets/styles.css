@@ -5,6 +5,9 @@
 
 body {
     font-family: "Helvetica", "Arial", sans-serif;
+    background: url("../images/bg.png") center fixed;
+    background-size: cover;
+    color: #243c47;
 }
 
 nav {
@@ -51,6 +54,10 @@ nav a {
 nav a:hover {
     color: white;
     background: #365d6d;
+}
+
+h1 {
+    text-align: center;
 }
 
 footer {

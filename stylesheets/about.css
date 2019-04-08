@@ -1,13 +1,7 @@
-body {
-    background: url("../images/other_bg.jpg") center fixed;
-    background-size: cover;
-}
-
 main {
     display: flex;
     justify-content: space-evenly;
     margin-top: 12vh;
-    color: #243c47;
 }
 
 img {
@@ -20,10 +14,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-h1 {
-    text-align: center;
 }
 
 p {
