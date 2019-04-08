@@ -1,0 +1,39 @@
+.icons {
+  color: #82B452; 
+  display: inline-block; 
+  font-size: 4.5em;
+  }
+  
+img {
+  max-width: 500px;
+  height: 400px;
+}
+
+#slack {
+  align-self: center;
+  width: 200px;
+  height: 60px;
+}
+ 
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+article {
+  margin: 20px;
+}
+
+p{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #82B452;
+  font-weight: bolder;
+}
+
+

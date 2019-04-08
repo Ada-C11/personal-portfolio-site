@@ -1,0 +1,29 @@
+body {
+  margin:0;
+}
+.journal {
+  display: flex; 
+  flex-flow: column nowrap;
+  align-content: space-between;
+  padding: 10px;
+  margin: 20px;
+}
+
+article {
+  background-color: #FAF9F7;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+article:nth-child(odd) {
+  background: #B8D691;
+}
+h2, h4, p {
+  padding: 5px 40px;
+  margin-left: 5px;
+  color: #373737;
+  word-spacing: 2px;
+}
+
+h2, h4 {
+  font-family: 'Bree Serif', serif;
+}

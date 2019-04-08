@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nara's Website</title>
+    <meta name="description" content="Nara Bat-Ochir">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox">
+      <ul class="nav">
+        <li class="home"><a href="index.html">Nara</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="code-journal.html">Code Journal</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <span class="toggle">☰</span>
+      </label>
+    </nav>
+
+    <main>
+      <header id="header">
+
+        <h1> Hello. I'm Nara. </h1>
+        <div class="typewriter">
+            <h1>Full Stack Developer in Training.</h1>
+        </div>
+      </header>
+      <section id="contact">
+    
+          <h2>Contact Me</h2>
+            <form action="/contact/sendmessage" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="input-control" placeholder="Sheryl Sandberg">
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" name="company" class="input-control" placeholder="Facebook">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="input-control" placeholder="Enter Email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" class="input-control" placeholder="Enter Message"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>&copy; Nara Bat-Ochir 2019, All Rights Reserved</footer>
+  </body>
+</html>
