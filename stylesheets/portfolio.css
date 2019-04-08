@@ -1,7 +1,12 @@
+body {
+    zoom: 100%;
+}
+
 .portfolio {
     display: flex;
     list-style-type: none;
     justify-content: center;
+
 }
 
 img {
