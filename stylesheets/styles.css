@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+* {
+    font-family: 'EB Garamond', serif;
+}
+
 body {
     background-color: #FFDDCC;
     color: black;
     min-height: 100vh;
     display: block;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 2fr min-content;
     position: relative;
     padding-bottom: 100px; 
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 
 html, body {
