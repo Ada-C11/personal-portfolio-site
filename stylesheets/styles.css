@@ -1,0 +1,63 @@
+body {
+  background-color: #F0F0F2;
+  font-family: 'Francois One', sans-serif;
+  display: grid;
+  grid-template-rows: 50px auto-fit 1fr 50px;
+  grid-template-columns: 1.5fr 3fr;
+}
+
+nav {
+  grid-area: 1 / 1
+}
+
+#about-link, #portfolio-link, #blog-link {
+  margin-left: 30px;
+}
+
+header {
+  text-align: center;
+  align-items; center;
+  color: #252226;
+  grid-column: span 2;
+}
+
+sub, footer, p {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color:#519DA6;
+  font-style: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#519DA6;
+  font-style: italic;
+}
+
+main {
+  text-align: center;
+  grid-column: span 2;
+  margin: 30px;
+}
+
+footer {
+  grid-column: span 2;
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+}

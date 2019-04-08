@@ -1,0 +1,35 @@
+main {
+  grid-area: 3 / span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px;
+}
+
+section ul {
+  font-family: 'Didact Gothic', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section ul li {
+  margin: .5em 0px .5em 0px;
+}
+
+#software-design {
+  grid-column: 1;
+}
+
+#graphic-design {
+  grid-column: 2;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 277px;
+  border-radius: 15px;
+}
+
