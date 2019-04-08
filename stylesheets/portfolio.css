@@ -3,8 +3,6 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-
-
 .thumbnail {
     margin:30px;
     display: inline-block;
@@ -34,17 +32,9 @@
 }
 
 
-@media only screen and (max-width:812px) {
+@media only screen and (max-width:1023px) {
     #programming-projects {
         grid-template-columns: 1fr;
-        
-    }
-
-}
-
-@media only screen and (min-width:813 && max-width:1024px) {
-    #programming-projects {
-        grid-template-columns: 1fr 1fr;
         
     }
     .thumbnail {
@@ -53,4 +43,6 @@
         padding-left: 0;
         padding-right: 0;
     }
+
 }
+

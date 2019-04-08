@@ -32,7 +32,7 @@ nav ul{
 }
 
 nav li{
-    margin:5px;
+    margin:15px;
     font-size: 1.5em;
 }
 main {
@@ -62,4 +62,11 @@ a:hover {
 footer {
     padding-top:20px;
     text-align:center;
+}
+
+@media only screen and (max-width:600px) {
+    nav li{
+        margin:5px;
+        font-size: 1.2em;
+    }
 }
