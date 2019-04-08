@@ -4,3 +4,7 @@ section {
   flex-flow: column wrap;
   align-items: center;
 }
+
+h2 {
+  font-size: 1.25em;
+}
