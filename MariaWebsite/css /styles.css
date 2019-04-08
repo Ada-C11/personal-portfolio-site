@@ -1,0 +1,130 @@
+body {
+  margin: 1;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color:rgb(68, 104, 181);
+  letter-spacing: 3px;
+  font-size: 1em;
+  padding-right: 10%;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+  background: rgb(240, 208, 219);
+  width: 100%;
+  height: 20px;
+  padding: 35px 45px;
+  overflow: hidden;
+  text-align: center;
+  a {
+    letter-spacing: 3px;
+    font-size: 0.7em;
+    padding-right: 10%;
+  }
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.landing--container {
+  position: relative;
+  margin: 0;
+  background-image: url("/Users/maria/ada/MariaWebsite/images/Nk+GsazVTzKt7RoorYahDg_thumb_187.jpg");
+  background-attachment: fixed;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  opacity: .80;
+}
+
+.landing--title {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+}
+ h1 {
+    margin-top: 1px;
+    color: rgb(107, 7, 113);
+    font-size: 7em;
+    font-family: 'Raleway', sans-serif;
+    opacity: .90;
+  }
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color:  rgb(107, 7, 113);
+    margin-top: -10px;
+    font-size: 1.5em;
+    
+}
+
+.landing--line {
+  background: white;
+  width: 40%;
+  left: 29%;
+  top: 120%;
+  height: 8px;
+  position: absolute;
+}
+
+section {
+  width: 100%;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: 80px;
+
+
+}
+.about-me{
+    background-color: rgb(212, 236, 236);
+    text-align: center ; 
+}
+.about-me > div {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.my-coding-journal{
+    background-color: rgb(244, 237, 187);
+}
+ .my-coding-journal > div {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.other-hobbies{
+    background-color: rgb(203, 245, 217);
+}
+
+ .other-hobbies > div {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+
