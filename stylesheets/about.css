@@ -1,0 +1,8 @@
+.about-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text img {
+    display: inline-block;
+}

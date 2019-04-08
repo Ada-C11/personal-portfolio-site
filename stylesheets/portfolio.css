@@ -1,13 +1,21 @@
+
+
 .projects-title {
-    height: 100px;
+    height: 150px;
 }
 
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    background-color: #B8D8D8;
 }
 
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 3em;
+    font-weight: bolder;
+}
 .projects div {
     display: flex;
     flex-direction: column;
@@ -17,17 +25,23 @@
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
-    border: 1px solid red;
+    border: 1px solid #EEF5DB;
     padding: 1rem;
+    background-color: #7A9E96;
 }
 
 .projects div a {
+    /* color: #1F2833; */
+    color: #EEF5DB;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 2rem;
     text-decoration: none;
 }
 
 .projects div p {
     margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Josefin Slab', serif; */
 }
 
 .projects div:first-of-type {
