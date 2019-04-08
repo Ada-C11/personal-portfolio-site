@@ -1,11 +1,7 @@
-/* h1 {
-  font-family: 'Oleo Script', cursive;
-  font-size: 3em;
-  text-align: center;
-} */
 
-h2 {
+h2, h3 {
   font-weight: bold;
+  margin: 0;
 }
 
 ul.skillList li, ul.topics li {
@@ -25,22 +21,37 @@ ul.skillList li, ul.topics li {
 ul, li {
   list-style: none;
 }
-/* ul {
-  padding-inline-start: 0px;
-} */
+
 
 div.flexbox {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
+
 
 }
 .flexbox.heading {
-    align-items: center;
+  align-items: center;
 }
- div.flexbox a {
+div.flexbox a {
+  padding: .2em .5em;
+  margin: .5em 0.5em; 
+  flex: right;
+  color:rgb(18, 72, 100);
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: rgb(18, 72, 100);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ 
 
-   flex: right;
+ div.flexbox a:hover {
+
+  list-style-position: outside;
+
+  background-color:  rgb(18, 72, 100);
+  color: white;
+  border-radius: 4px;
  }
 
 article {
@@ -51,8 +62,9 @@ article {
 }
 
 img {
-  /* flex: right; */
+
   height: 150px;
+  margin: 0 1.5em 1.5em 2em;
 }
 
 p {
