@@ -18,8 +18,11 @@ body {
   padding-right: 30px;
 }
 
-.main-nav ul {
+ul {
   list-style-type: none;
+}
+
+.main-nav ul {
   margin: 0;
   padding: 0;
   text-align: center;
