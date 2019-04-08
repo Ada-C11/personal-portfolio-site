@@ -1,0 +1,203 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+nav ul li a:hover {
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid pink;
+    color: pink;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 200; 
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+section.home a {
+    font-weight: 400;
+    font-style: italic;
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    padding: 20px 75px 15px 75px;
+    font-size:1.25rem;
+    text-decoration: none;
+    margin: 6rem;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    padding: 275px;
+    text-align: center;
+    background-image: linear-gradient(120deg, rgb(244, 215, 253), white, rgb(244, 215, 253));
+}
+
+@keyframes fade {
+    from {color: rgba(255, 192, 203, 0);}
+    to {color: black;}
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: 500;
+    margin: 0;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.home a:hover {
+    border: 2px solid rgb(252, 203, 217);
+    box-shadow: 5px 5px;
+}
+
+section {
+    padding: 100px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 150px 0 0 0;
+}
+
+.about p {
+    font-weight: 300;
+}
+
+.about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.about div:first-child {
+    max-width: 600px;
+}
+
+.portfolio div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio a {
+    font-weight: 400;
+    font-style: italic;
+    background-color: rgba(252, 203, 217, 0.219);
+    color: black;
+    width: 200px;
+    height: 200px;
+    border: 4px solid;
+    padding: 75px;
+    margin: 0 60px 60px 0;
+    font-size: 3.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.portfolio p {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.portfolio {
+    padding: 125px 0 50px 0;
+}
+
+.portfolio a:hover {
+    box-shadow: 20px 20px rgb(252, 203, 217);
+}
+
+.about img {
+    max-height: 500px;
+    float: right;
+}
+
+.fa {
+    text-decoration: none;
+    color: black;
+  }
+
+.fa:hover {
+    color: pink;
+}
+
+footer {
+    position: fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+    padding: 0 1rem 0 0;
+}
