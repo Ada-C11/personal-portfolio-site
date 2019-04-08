@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template: 0.25fr 0.10fr 0.15fr 0.10fr 1fr 0.25fr 0.25fr/ 1fr 
+}
+
+.git {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+img {
+  border: solid grey 0.1rem;
+  margin: 1rem;
+}
+
+.parallax {
+  background-image: url("../images/bwas.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  margin: 0.5rem;
+}

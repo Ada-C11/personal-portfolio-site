@@ -1,0 +1,13 @@
+
+body {
+  display: grid;
+  grid-template: 0.5fr 1fr 1fr 1fr 0.5fr/ 1fr 
+}
+
+.parallax {
+  background-image: url("../images/bw.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
