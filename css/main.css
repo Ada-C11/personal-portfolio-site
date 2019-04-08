@@ -130,6 +130,10 @@ footer .cp {
   list-style-type: none;
 }
 
+.about-content h1{
+  color: #000;
+  text-align: center;
+}
 li #img1 {
   height: 50px;
   width: 50px;
