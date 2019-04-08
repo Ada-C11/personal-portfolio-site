@@ -1,0 +1,39 @@
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-width: 3px; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color:#E5755D;
+}
+
+body {
+    padding-bottom: 0%
+}
+
+main {
+    text-align: center;
+    padding: auto;
+    padding-top: 40px;
+}
+
+h2 {
+    padding: 2rem
+}
+
+div {
+    border: double;
+    border-width: 3px;
+    border-color: #E5755D;
+    /* margin-left: 3rem;
+    margin-right: 3rem */
+    box-sizing: border-box;
+    display:inline-block
+}
+
+div p {
+    padding-left: 1em;
+    padding-right: 1em
+}
