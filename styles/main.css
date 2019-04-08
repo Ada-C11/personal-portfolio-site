@@ -23,7 +23,7 @@ ul {
   justify-content: space-around;
 }
 
-li, header > h1 {
+li, header > h1, #photo-cred > p {
   background-color: white;
   border-radius: 15%;
   border: 1px black solid;
@@ -51,17 +51,39 @@ header {
   margin: 20% 20% 0 0; 
 }
 
+.main {
+  padding: 10% 10% 10% 10%;
+  text-align: center;
+}
+
 .parallax2 { 
   height: 70%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: -3% -1% 0 -3%;
+  margin: 0 -1% 0 -3%;
 }
 
 footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20%;
+}
+
+#photo-cred {
+  display: flex;
+  justify-content: center;
+}
+
+#photo-cred > p {
+  font-size: 1em;
+}
+#photo-cred > p > a {
+  text-decoration: underline;
+}
+
+#photo-cred > p > a:hover {
+  color: #cc5500;
+  text-decoration: underline;
 }
