@@ -1,0 +1,13 @@
+/* Main */
+main {
+  margin-top: 7em;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-flow: column wrap;
+  width: 60%;
+}
