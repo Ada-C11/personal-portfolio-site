@@ -1,0 +1,13 @@
+
+.icon {
+    max-height:50px;
+    max-width: 50px;
+    margin:15px;
+}
+
+#contact {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+

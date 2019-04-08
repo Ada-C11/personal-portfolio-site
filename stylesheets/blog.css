@@ -4,7 +4,7 @@ body {
 
 .grid-container {
     display:grid;
-    grid-template: repeat(3, 1fr)/ repeat(4, 1fr)
+    grid-template-columns: repeat(6, 1fr)
 }
 
 section ul:empty:before{
@@ -12,9 +12,8 @@ section ul:empty:before{
 }
 aside {
     margin: 20px;
-    grid-row: 1/5;
     grid-column:1/2;
-
+    position:fixed;
 }
 
 aside ul {
@@ -23,14 +22,17 @@ aside ul {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-    position:fixed;
 }
 aside li {
     margin:20px; 
 }
 
 main {
-    margin: 20px;
-    grid-row: 1/5;
-    grid-column:2/5;
+    grid-column:2/7;
+}
+
+.post {
+    background-color:rgba(255, 255, 255, 0.2);
+    padding:20px;
+    margin:20px;
 }

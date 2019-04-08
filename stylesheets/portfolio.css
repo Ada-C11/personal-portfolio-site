@@ -6,21 +6,23 @@
 
 
 .thumbnail {
-    margin:40px;
+    margin:30px;
+    display: inline-block;
+    padding:20px;
     text-align: center;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
 }
 
-.thumbnail a{
+.thumbnail a {
     display: block;
     padding-bottom:10px;
-}
-
-.thumbnail:hover p {
-    display: block;
+    font-family: "Josefin Sans"
 }
 
 .thumbnail p {
-    display: none;
+    padding:15px;
+    font-size:0.7em;
 }
 
 
