@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
+.container {
+    position: relative;
+
+}
+
+.black-space h1{
+    margin: 0;
+    font-size: 1em;
+    background-color: black;
+    color: black;
+}
+header {
+    background-color: black;
+    color: #F5F5F5;
+    font-size: 0.5em;
+}
+header h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 20px 0 20px;
+    font-family: 'Roboto', sans-serif;
+    border: black 30px solid;
+    font-style: italic;
+    font-size: 20px;
+}
+.container img {
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    opacity: 0.8;
+
+
+}
+
+/* .container:hover img, .container:focus img {
+    transform: scale(1.1,1.1);
+} */
+nav {
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-stsart;
+    list-style-type: none;
+    font-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: 'Righteous'
+}
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+nav li {
+    padding: 10px;
+}
+
+.text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FFFAFA ;
+    font-size: 2.5em;
+    font-family: 'Righteous';
+}
+
+.text-block p {
+    font-size: .8em;
+}
+
+footer {
+    background-color: #FFFAFA;
+    margin: 0;
+    color: black;
+}
