@@ -30,7 +30,25 @@ main section {
 
 }
 main a {
-  padding: 0 1em;
+  padding: .5em 1em;
+  margin: 0 0.5em;
+  list-style-position: outside;
+  /* background: rgb(18, 72, 100); */
+  border: 2px solid;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 6px;
+}
+
+main a:hover {
+  padding: .5em 1em;
+  margin: 0 0.5em;
+  list-style-position: outside;
+
+  background-color: #fff;
+  color: rgb(18, 72, 100);
+  border-radius: 6px;
+
 }
 
 img {

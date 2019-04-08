@@ -1,8 +1,8 @@
-h1 {
+/* h1 {
   font-family: 'Oleo Script', cursive;
   font-size: 3em;
   text-align: center;
-}
+} */
 
 h2 {
   font-weight: bold;
@@ -12,7 +12,7 @@ ul.skillList li, ul.topics li {
   font-size: .75em;
   line-height: 1em;
   list-style-position: outside;
-  background: #888;
+  background: rgb(18, 72, 100);
   display: inline-block;
   color: #fff;
   padding: 6px;
@@ -39,11 +39,15 @@ div.flexbox {
     align-items: center;
 }
  div.flexbox a {
+
    flex: right;
  }
 
 article {
   margin: 100px 0px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
 }
 
 img {

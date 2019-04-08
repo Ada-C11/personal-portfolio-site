@@ -1,5 +1,11 @@
 
-html, body {
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+body {
   height: 100%;
 }
 
@@ -8,16 +14,37 @@ a {
 }
 nav a, .flexbox a {
 
-  border-radius: 15px;
-  border: 2px solid;
-  padding: 8px;
-  border-color: darkslategray
+  /* border-radius: 15px; */
+  /* border: 2px solid; */
+  /* padding: 8px; */
+  /* border-color: darkslategray; */
+
+  /* font-size: .75em; */
+  /* line-height: 1em; */
+  list-style-position: outside;
+  background: rgb(18, 72, 100);
+  /* display: inline-block; */
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+
+body {
+  /* background: url(../images/background_tile.jpg); */
+  background: url(../images/background-2.png);
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
 body {
   /* display: flex;
   flex-direction: column; */
-  background: aquamarine;
+  /* background: aquamarine; */
+  /* background: url(images/backgraound_tile.jpg) repeat; */
+  /* background: "images/backgraound_tile.jpg" */
+  /* background: url(../images/background-2.png); */
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -30,13 +57,16 @@ body {
 }
 header, footer {
   grid-column:  1 / 5;
-  background-color: beige;
+  background: rgb(18, 72, 100);
+  /* background-color: beige; */
   /* padding: 1em; */
 }
 nav ul {
   /* font-size: 1.25em; */
   padding: 1em 0;
 }
+
+
 
 nav ul, footer {
   display: flex;
@@ -56,6 +86,25 @@ nav li {
   text-align: center;
 
 } 
+
+nav li a {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+nav li:hover a {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,82ffdd+0,66a8f9+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7cffb9+0,678cfc+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e5799 0%, #7cffb9 0%, #678cfc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#7cffb9 0%,#678cfc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1e5799 0%,#7cffb9 0%,#678cfc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#678cfc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
  
 footer {
   /* flex-shrink: 0; */
