@@ -1,0 +1,29 @@
+
+  .projects li {
+    list-style: none;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+  }
+  
+  .project img {
+    padding: 10%;
+    max-width: 75%;
+  }
+  
+  .project span {
+    margin: 1em;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  #title {
+    font-size: 5em;
+  }
