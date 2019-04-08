@@ -1,0 +1,73 @@
+/* h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+} */
+
+/* p {
+	font-family: 'Roboto', sans-serif;
+	font-size: .8rem;
+} */
+
+
+/* change background color and fix position of nav */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: slategray;
+  border-bottom: #333
+  grid-column: 1;
+}
+
+nav ul {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 70% 10% 10% 10%;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+li:hover {
+  color: red;
+}
+
+li:link {
+  color: black;
+}
+
+li:visited {
+  color: gray:
+}
+
+li:active {
+  color: yellow:
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+	font-size: .8rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  background-image: url("../../images/lake.jpg");
+  background-color: transparent;
+  }
+
+#img1 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#img2 {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+#img3 {
+  grid-column: 6;
+  grid-row: 6;
+}
