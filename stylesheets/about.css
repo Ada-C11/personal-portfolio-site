@@ -23,7 +23,8 @@ main {
 main p {
     flex-direction: column;
     padding-left: 2em;
-    padding-right: 2em
+    padding-right: 2em;
+    padding-top: 0%
 }
 
 img {
@@ -35,4 +36,9 @@ img {
 #about-me-blurb {
     margin-left: 1em;
     padding-top: 3em
+}
+
+footer {
+    position: absolute;
+    margin-bottom: 1px
 }
