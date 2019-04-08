@@ -1,0 +1,96 @@
+.grey-text {
+    color: #818181;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.not-quite-black-text {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    /* padding: .2em; */
+    /* margin: .2em;
+    border: 2px solid #3cb9cb; */
+}
+
+/* a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #818181;
+    border: 2px solid #818181;
+    border-radius: 10px;
+} */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    /* grid-template: min-content / 1fr min-content; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3cb9cb;
+    padding: 20px 60px;
+    border-bottom: 3px solid #818181;
+}
+span.logo {
+    font-family: 'Crimson Text', serif;
+    font-size: 5em;
+    border-radius: 20px;
+   
+    border: 3px solid #818181;
+    background-color: white;
+    padding: 0 10px;
+}
+
+ul{
+    padding: 0 20px 0 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: .2em;
+    margin: .2em;
+}
+
+nav ul li:hover {
+     list-style-type: disc;
+}
+
+/* nav ul li .grey-text {
+    list-style-type: none;
+    font-size: 3em;
+} */
+
+.flex-box-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+    min-height: 300px;
+    text-align: center;
+}
+
+iframe {
+    border: 2px solid #333;
+}
+
+footer {
+    background-color: #3cb9cb;
+    text-align: center;
+    padding: .3em;
+    border-top: 3px solid #818181;
+
+}
+/* FIGURE OUT HOW TO MAKE THE <a> TAG NOT HAVE A BULLET UPON HOVER */
+nav ul .grey-text li:hover {
+    list-style-type: none;
+}
