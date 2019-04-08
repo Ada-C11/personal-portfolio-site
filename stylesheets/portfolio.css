@@ -23,24 +23,9 @@ header {
     margin-left: 2em
 }
 
-h3 {
+h2 {
     padding-top: 0px;
     padding-bottom: 2em;
     font-style: italic
 } 
 
-.github-links {
-    text-decoration: none;
-}
-
-.github-links:active .github-links:visited {
-    color: black
-}
-
-.github-links:hover {
-    color: #E5755D
-}
-
-footer {
-    padding-top: 3rem; 
-}
