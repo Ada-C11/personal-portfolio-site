@@ -16,6 +16,11 @@ section {
     justify-content: center;
 }
 
+h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
 p {
     padding: 1em;
 }
