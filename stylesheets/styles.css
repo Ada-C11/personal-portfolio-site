@@ -51,6 +51,8 @@ a:hover {
 
 main {
   text-align: center;
+  grid-column: span 2;
+  margin: 30px;
 }
 
 footer {
