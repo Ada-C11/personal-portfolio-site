@@ -73,7 +73,7 @@ figure {
     text-align: center;
 }
   
-article > * {
+section > * {
     background-color: rgb(216, 253, 241);
     padding: 2em;
 }
@@ -106,7 +106,7 @@ a:after {
     background: rgb(113, 204, 174);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
+}
 
 .nav-header ul li a:hover:after { 
     width: 100%; 
