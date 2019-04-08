@@ -1,45 +1,33 @@
 body {
-  display: grid;
-  grid-template-rows: .5fr 1fr 1fr .5fr;
   background-color: #F0F0F2;
   font-family: 'Francois One', sans-serif;
-}
-
-header {
-  grid-row: 2;
-  text-align: center;
-  align-items; center;
-  color: #252226;
-}
-
-sub, footer {
-  font-family: 'Didact Gothic', sans-serif;
-}
-
-h1 {
-  font-size: 2.5em;
-  margin: 0px 70px 15px 70px;
-  padding-top: 50px;
-}
-
-h1:hover {
-  font-style: italic;
-  color: #519DA6;
-}
-
-h2 {
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
-sub {
-  display: block;
-  font-size: 1.1em;
-  margin-bottom: 5px;
+  display: grid;
+  grid-template-rows: 50px auto-fit 1fr 50px;
+  grid-template-columns: 1.5fr 3fr;
 }
 
 nav {
-  grid-row: 3;
+  grid-area: 1 / 1
+}
+
+#about-link, #portfolio-link, #blog-link {
+  margin-left: 30px;
+}
+
+header {
+  text-align: center;
+  align-items; center;
+  color: #252226;
+  grid-column: span 2;
+}
+
+sub, footer, p {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -61,16 +49,13 @@ a:hover {
   font-style: italic;
 }
 
-#about-link {
-  margin-right: 30px;
-}
-
-#blog-link {
-  margin-left: 30px;
+main {
+  text-align: center;
 }
 
 footer {
-  grid-row: 4;
+  grid-column: span 2;
+  margin-top: 10px;
   text-align: center;
   font-style: italic;
 }
