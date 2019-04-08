@@ -9,44 +9,78 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
     <link rel='stylesheet' href="../styles/main.css">
-    <link rel='stylesheet' href="../styles/index.css">
+    <link rel='stylesheet' href="../styles/portfolio.css">
 </head>
 
 <body>
-    <a href="index.html">
-        <header>
-            <img id="swan" src="../images/swan.jpg">
-            <h2 id='SC'>SC</h2>
-        </header>
-    </a>
+    <header>
+        <div id="signature">
+            <a href="index.html">
+                <span class="C">C</span>
+                <img id="swan" src="../images/swanny.png" alt="Header Swan Icon">
+            </a>
+        </div>
 
-    <nav>
-        <ul id='nav-pages'>
-            <li>
-                <a href="portfolio.html">projects</a>
-            </li>
-            <li>
-                <a href="about.html">about</a>
-            </li>
-            <li>
-                <a href="blog.html">blog</a>
-            </li>
-        </ul>
-    </nav>
+        <nav>
+            <ul id='nav-pages'>
+                <li>
+                    <a id="projects" href="portfolio.html">projects</a>
+                </li>
+                <li>
+                    <a id='about' href="about.html">about</a>
+                </li>
+                <li>
+                    <a id='blog' href="blog.html">blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
+        <h1 id='project-header'>
+            PROJECTS
+        </h1>
+        <div class='projects-wrapper'>
+            <a id='hotel' class='projects' href="https://github.com/shirley1chu/hotel">
+                <img src="../images/hotel.jpg" alt="Hotel Project">
+                <div class = 'desc-wrapper'>
+                    <p>
+                        A hotel reservation system designed and built from scratch
+                    </p>
+                </div>
+            </a>
+            <a id='rideshare' class='projects' href="https://github.com/shirley1chu/oo-ride-share">
+                <img src="../images/rideshare.jpg" alt="Rideshare Project">
+                <div class = 'desc-wrapper'>
+                <p>
+                    Back-end business logic for loading data from a database, and coordinating trips between drivers and
+                    passengers.
+                </p>
+            </div>
+            </a>
+            <a id="slack-cli" class='projects' href="https://github.com/shirley1chu/slack-cli">
+                <img src="../images/slack.jpg" alt="Slack CLI Project">
+                <div class = 'desc-wrapper'>
+                <p>
+                    A command-line program that posts messages to users and Slack channels on behalf of the user.
+                </p>
+            </div>
+            </a>
+
+        </div>
     </main>
 
     <footer>
-        <li id="social media">
+        <div id="social-media">
             <a id='linkedin' href="https://www.linkedin.com/in/shirleycchu/">
                 <i class="fab fa-linkedin"></i>
             </a>
             <a id="email" href="mailto:shirley.cchu@gmail.com">
                 <i class="fas fa-envelope-square"></i>
             </a>
-        </li>
+        </div>
     </footer>
 </body>
 

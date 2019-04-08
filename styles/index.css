@@ -1,31 +1,41 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'intro intro' 'left-container right-container' 'about about' 'coffee coffee';
+}
+
 
 body #headshot {
     text-align: left;
     transform: rotate(90deg);
-    width: 400px;
-    height: 300px;
+    height: 35vh;
     margin-top: 2em;
     margin-bottom: 1em
 
 }
 
 .left-container {
-    font-size: 2em;
-    width: 33%;
+    grid-area: left-container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em
 }
 
 
-
 #introduction {
-    display: flex; 
-    margin-left: 5em;
     margin-block-start: -.25em;
-    font-size: 4em;
+    font-size: 7em;
+    text-align: center;
+    width: 100%;
+    grid-area: intro 
 }
 
 #second-life {
     text-align: center;
-    margin-block-start: 0em, 
+    grid-area: intro;
+    margin-top: 4em;
+    font-size: 2em;
 }
 
 
@@ -40,9 +50,34 @@ body #headshot {
 
 #interests {
     color: darkturquoise;
-    font-size: 2em
+    font-size: 2.5em;
+    grid-area: right-container;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 4em;
+    justify-content: center;
 }
 
 #fashion, #Seattle {
     color: white
+}
+
+#coffee-wrap {
+    grid-area: coffee;
+   text-align: center;
+   margin-top: 2em;
+   margin-bottom: 4em
+}
+
+#Coffee {
+    font-size: 1.5em;
+    color: white;
+    border-radius: 25px;
+    border: white solid;
+    background-color:darkturquoise;
+    padding: 10px 10px;
+}
+
+#Coffee:hover {
+    background-color: pink
 }

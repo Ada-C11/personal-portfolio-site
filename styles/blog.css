@@ -1,0 +1,23 @@
+#blog-header {
+    font-size: 7em;
+    font-weight: bold;
+    letter-spacing: .03em;
+    margin-top: -.5em;
+    margin-left: .25em;
+    margin-bottom: 0em
+}
+
+.articles {
+    color: gray;
+    padding: 2em 2em 
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+/* adds hyperlink to title */
+article h2 {
+
+}
