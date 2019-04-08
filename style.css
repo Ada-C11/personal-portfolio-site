@@ -33,3 +33,10 @@ div.portfolio_images {
     width: 100%;
     max-height: 100%;
 }
+
+img[alt="blogcoffee"] {
+  border-radius: 10%;
+  /*object-fit: cover;*/
+  width: 100%;
+  max-height: 100%;
+}
