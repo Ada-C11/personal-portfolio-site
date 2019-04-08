@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family:'Montserrat',sans-serif;
+  font-family:'Open Sans', sans-serif;
 }
 ul {
   list-style-type: none;
   margin:0;
 }
 nav {
-  background: #eee;
+  background: #E0E2E2;
   max-width: 100%;
   width: 100%;
 }
@@ -98,11 +98,12 @@ nav {
   }
 
   .nav li a:hover {
-    background: #d5d5d5;
+    background: #82B452;
+    color: #FAF9F7;
   }
 
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #cecece;
+    background-color: #FAF9F7;
   }

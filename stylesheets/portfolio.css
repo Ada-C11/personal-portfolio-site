@@ -1,5 +1,5 @@
 .icons {
-  color: red; 
+  color: #82B452; 
   display: inline-block; 
   font-size: 4.5em;
   }
@@ -10,7 +10,7 @@ img {
 }
 
 #slack {
-  align-content: center;
+  align-self: center;
   width: 200px;
   height: 60px;
 }
@@ -18,7 +18,22 @@ img {
 .projects {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 10px;
 }
+article {
+  margin: 20px;
+}
+
+p{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #82B452;
+  font-weight: bolder;
+}
+
+

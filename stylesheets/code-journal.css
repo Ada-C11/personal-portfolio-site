@@ -23,3 +23,7 @@ h2, h4, p {
   color: #373737;
   word-spacing: 2px;
 }
+
+h2, h4 {
+  font-family: 'Bree Serif', serif;
+}
