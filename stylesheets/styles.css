@@ -97,6 +97,11 @@ h2 {
     animation-duration: 2s;
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 .home a:hover {
     border: 2px solid rgb(252, 203, 217);
     box-shadow: 5px 5px;
@@ -126,6 +131,11 @@ section {
 
 .about div:first-child {
     max-width: 600px;
+}
+
+.about img {
+    max-height: 500px;
+    float: right;
 }
 
 .portfolio div {
@@ -163,9 +173,22 @@ section {
     box-shadow: 20px 20px rgb(252, 203, 217);
 }
 
-.about img {
-    max-height: 500px;
-    float: right;
+.inspiration {
+    display: grid;
+    grid-template: 1 / 4;
+    grid-gap: 5%;
+}
+
+.inspiration img {
+    height: 400px;
+    float: left;
+    padding: 0 40px 0 0;
+    border-right: 3px solid black;
+    margin: 0 40px 0 0;
+}
+
+.inspiration h3 {
+    padding: 40px 0 0 0;
 }
 
 .fa {
