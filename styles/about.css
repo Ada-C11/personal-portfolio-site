@@ -75,7 +75,6 @@ body {
     box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
     display: block;
     transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
-    margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -110,7 +109,6 @@ a:after {
     width: 100%; 
     left: 0; 
 }
-
 @media screen and (max-height: 300px) {
     ul {
           margin-top: 40px;
