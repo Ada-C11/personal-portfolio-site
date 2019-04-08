@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    color: blue 
+    height: 100%;
+    line-height: 2;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  section {
+    border-bottom: 1px solid turquoise
+  }
+  
+  a {
+    text-decoration: none;
+    color: turquoise;
+  }
+  
+  .nav-container {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(30, 2, 56);
+    margin-top: 0;
+    z-index: 10;
+    border-bottom: 2px solid transparent;
+  }
+  
+  #home {
+    flex: 1;
+  }
+  
+  #portfolio, #about, #blog {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    /*padding-center: 2px;*/
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    color: blue;
+  }
+  
+  header h1 {
+    background-color: plum;
+    padding: 10px;
+    border-radius: 10px;
+    display: table;
+    margin: 10px auto;
+    line-height: 1.2;
+    letter-spacing: .15em;
+  }
+  
+  .portfolio-header {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+    border-bottom: black;
+    height: 100px;
+  }
+  
+  .portfolio-header h1 {
+    justify-content: space-between;
+    background-color: teal;
+    border-left: teal;
+  }
+  
+  .intro {
+    padding-top: 50px;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .intro h2 {
+    font-size: 20pt;
+    padding-top: 50px;
+  }
+
+  footer {
+    width: 100%;
+    min-height: 20px;
+    margin: 20px auto;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+  }
+
+  
+
+
+
+
