@@ -1,17 +1,36 @@
 * {
     text-align: center;
     color: white;
+    font-family: 'Trocchi', serif;
 }
 
 [href] {
     text-decoration: none;
 }
 
+[href]:hover {
+    text-decoration-line: underline;
+}
+
 html {
     background-image: linear-gradient( #5F4B8B, #CEC3D2);
-    height: 100%;
+    min-height: 100%;
 }
-/* Formatting for navbar */
+
+main.journal h2, main.about h2, p {
+    text-align: left;
+}
+
+main {
+    padding: 2em;
+    padding-bottom: 3em;
+}
+
+.page-description {
+    font-size: 1.25em;
+    text-align: center;
+}
+/* Formatting for navbar, globally */
 nav {
     background: #5F4B8B;
     padding: 1em;
@@ -33,8 +52,15 @@ ul li:first-child {
     text-align: left;
 }
 
-/* formatting for index main */
+/* Formatting for Footer, globally */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+}
 
+/* formatting for index main */
 main.index {
     display: flex;
     flex-wrap: wrap;
@@ -59,29 +85,17 @@ main.index figcaption {
     text-align: center;
     color: black;
     font-size: 1.5em;
+    font-family: 'Merienda', cursive;
+    transform: rotate(-10deg)
 }
 
 main.index a:hover figcaption {
     visibility: visible;
-    -webkit-transform: rotate(-15deg);
 }
 
-/* Formatting for Footer */
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: min-content;
-}
-
-/* Formatting for Code Portfolio */
-/* Formatting for main */
+/* Formatting for Code Portfolio main  */
 main.portfolio {
     display: block;
-}
-
-main h2 {
-    text-align: left;
 }
 
 section.projects-group {
@@ -97,8 +111,13 @@ article.project-block {
     padding: 0.25em;
 }
 
-article.project-block p {
-    text-align: left;
+/* Formatting for Journal */
+main.journal {
+    padding: 3em;
+}
+
+.journal section {
+    padding-bottom: 2em;
 }
 
 /* Formatting for About */
