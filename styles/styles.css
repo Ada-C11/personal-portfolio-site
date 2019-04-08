@@ -3,6 +3,10 @@
     color: white;
 }
 
+[href] {
+    text-decoration: none;
+}
+
 html {
     background-image: linear-gradient( #5F4B8B, #CEC3D2);
     height: 100%;
@@ -29,13 +33,9 @@ ul li:first-child {
     text-align: left;
 }
 
-nav [href] {
-    text-decoration: none;
-}
-
 /* formatting for index main */
 
-main {
+main.index {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -43,25 +43,25 @@ main {
     padding: 1em;
 }
 
-main a {
+main.index a {
     background-color: white;
     padding-bottom: 1em;
     margin: 0.5em;
 }
-main img {
+main.index img {
     display: block;
     margin: 1em;
     background-color: white;
 }
 
-main figcaption {
+main.index figcaption {
     visibility: hidden;
     text-align: center;
     color: black;
     font-size: 1.5em;
 }
 
-main a:hover figcaption {
+main.index a:hover figcaption {
     visibility: visible;
     -webkit-transform: rotate(-15deg);
 }
@@ -99,4 +99,10 @@ article.project-block {
 
 article.project-block p {
     text-align: left;
+}
+
+/* Formatting for About */
+article.books img {
+    width: 20%;
+    display: inline-block;
 }
