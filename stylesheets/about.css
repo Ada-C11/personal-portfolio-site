@@ -1,0 +1,63 @@
+body {
+    background: url("../images/other_bg.jpg") center fixed;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12vh;
+    color: #243c47;
+}
+
+img {
+    width: 500px;
+    align-self: center;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1200px) {
+    main {
+        margin-top: 20vh;
+    }
+    img {
+        width: 300px
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    main {
+        margin-top: 16vh;
+    }
+    img {
+        width: 250px
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    main {
+        margin-top: 18vh;
+        flex-direction: column-reverse;
+    }
+    img {
+        width: 150px;
+        padding-bottom: 5vh;
+    }
+    section {
+        width: 100%;
+    }
+}
