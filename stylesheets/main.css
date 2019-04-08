@@ -1,4 +1,11 @@
 /* General Styling */
+main {
+  margin-top: 8em;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
 html {
   font-family: 'Montserrat', sans-serif;
   color: #1F1F1F;
@@ -19,11 +26,12 @@ i {
 }
 
 a {
-  font-color: #F7F7F7;
+  color: #676767;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #D8D8D8;
+  color: #1F1F1F;
 }
 
 /* Hover action courtesy of https://tympanus.net/Development/CreativeLinkEffects */
@@ -62,11 +70,21 @@ a:focus::after {
 	transform: translateX(0px);
 }
 
+/* Nav & Footer Links */
+nav a, footer a {
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+nav a:visited, footer a:visited{
+  color: #D8D8D8;
+}
+
 /* Top Nav Bar*/
 nav {
   position: fixed;
   top: 0;
-  padding: 1em;
+  padding: 1.5em;
   width: 100%;
   background-color: #1F1F1F;
   color: #F7F7F7;
@@ -83,12 +101,11 @@ nav ul {
 footer {
   display: grid;
   flex-direction: row;
-  grid-template-columns: 3fr repeat(2, 1fr);
+  grid-template-columns: 7fr 1fr;
   position: fixed;
   bottom: 0;
-  padding: 2em;
+  padding: 1.5em;
   width: 100%;
   background-color: #1F1F1F;
   color: #F7F7F7;
-  font-size: 
 }
