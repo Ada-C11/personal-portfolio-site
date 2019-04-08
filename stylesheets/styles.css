@@ -9,6 +9,9 @@ body {
 
 nav {
     background-color: #477A8F;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav ul {
