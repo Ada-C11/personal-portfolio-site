@@ -1,16 +1,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  
-
 }
 nav {
   display: flex;
   text-align: center;
 }
+
 nav ul {
   list-style-type: none; 
   
 }
+
 nav ul li {
   padding: 1em;
   display: inline-block;
@@ -41,6 +41,7 @@ main h1 {
 }
  main p {
    font-size: 1.5em;
+   text-align: center;
    color: white;
    margin-bottom: 1em;
    padding-left: 5em;
@@ -79,7 +80,18 @@ main h1 {
 #small {
   font-size: 0.5em;
 }
+
 footer .cp {
   color: #B36B5D;
   
+}
+
+.portfolio-content {
+  height: 500px;
+  background-image: url(../images/main-flowers.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFAE9D;
 }
