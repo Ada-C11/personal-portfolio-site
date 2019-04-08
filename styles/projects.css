@@ -1,0 +1,10 @@
+#projects p {
+    font-family: 'Roboto';
+    font-size: 2em;
+    padding: 1em;
+}
+
+#projects h1 {
+    font-size: 2em;
+    padding: 10px;
+}
