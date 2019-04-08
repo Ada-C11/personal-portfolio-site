@@ -1,19 +1,20 @@
 body {
-  display: grid;
   font-family: 'Montserrat', sans-serif;
-  grid-template-columns: .25fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr auto;
+  
+
 }
 nav {
-  grid-column: 1 / 1;
-  grid-row: 1 / 1;
-  background-color: none;
+  display: flex;
+  text-align: center;
 }
 nav ul {
-  list-style-type: none;
+  list-style-type: none; 
+  
 }
 nav ul li {
   padding: 1em;
+  display: inline-block;
+  
 }
 
 nav a:link {
@@ -22,38 +23,62 @@ nav a:link {
 }
 
 a:visited {
-  color: #ADFFB8;
+  color: #ea8959;
 }
 
 main {
-  background-color: #FFAE9D;
-  grid-column: 2 / span 4;
-  grid-row: 1 / span 4;
-  /* background-image: url("../images/main.jpg");  */
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 main h1 {
+  color: white;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
-  color: #000000;
-  margin-bottom: 1em;
+  margin: 1em;
   padding-top: 3em;
 }
  main p {
+   font-size: 1.5em;
+   color: white;
    margin-bottom: 1em;
    padding-left: 5em;
    padding-right: 5em;
  }
-.content-box {
-  box-sizing: content-box;
-  
-}
-footer {
-  grid-column: 1 / span 4;
-  grid-row: 4;
+.content {
+  height: 500px;
+  background-image: url(../images/liana-mikah-344562-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFAE9D;
+ 
 }
 
+.portfolio {
+  height: 500px;
+  background-color: #eddb5a;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.portfolio h2 {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.portfolio a:link {
+  text-decoration: none;
+}
+
+#small {
+  font-size: 0.5em;
+}
 footer .cp {
   color: #B36B5D;
   
