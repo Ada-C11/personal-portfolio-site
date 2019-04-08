@@ -190,3 +190,7 @@ main a::after {
   text-align: center;
   border: none;
 }
+
+.strike {
+  text-decoration: line-through;
+}
