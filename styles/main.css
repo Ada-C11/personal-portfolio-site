@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, html {
+  height: 100%;
+  font-family: raleway;
+  margin-top: 0%;
+}
+
+.parallax { 
+  height: 104%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -3% -1% 0 -3%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li, header > h1 {
+  background-color: white;
+  border-radius: 15%;
+  border: 1px black solid;
+  padding: 5px;
+  margin-top: 5%;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+li:hover {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20% 20% 0 0; 
+}
+
+.parallax2 { 
+  height: 70%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -3% -1% 0 -3%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20%;
+}

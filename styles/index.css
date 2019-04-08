@@ -1,0 +1,17 @@
+.parallax { 
+  background-image: url("../images/me.jpg");
+}
+
+header > h1 {
+  padding: .5em;
+  font-size: 3em;
+}
+
+.parallax2 { 
+  background-image: url("../images/mosaic-wall.jpg");
+}
+
+/* .main {
+  margin-bottom: 100px;
+  border: 10px solid black;
+} */
