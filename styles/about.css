@@ -23,3 +23,18 @@ article {
 strong {
   background: yellow;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
