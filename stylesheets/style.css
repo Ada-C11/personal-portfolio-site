@@ -29,6 +29,9 @@ nav {
     background-color: #FE5F55;
 }
 
+.main-page-header{
+    font-size: 2rem;
+}
 header {
     align-items: center;
     background-color: #B8D8D8;
