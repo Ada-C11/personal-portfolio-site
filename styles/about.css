@@ -1,0 +1,78 @@
+body {
+    display: grid;
+}
+
+body > section:nth-child(even) {
+    background-color: white;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
+p {
+    width: 93%;
+    padding: 3em;
+    padding-left: 2em;
+}
+
+.summary {
+    background-color: lightgray
+}
+
+h2 {
+    text-align: center;
+}
+
+.gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 2em;
+}
+
+.gallery > section {
+    grid-column: auto;
+}
+
+.crop {
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
+   }
+
+.crop img {
+    height: auto;
+    width: 90%;
+    margin-top: 1vw;
+   }
+
+.travel > .gallery {
+    display: flex;
+    height: 28vw;
+}
+
+.travel h2 {
+    color: white;
+}
+
+.travel > .gallery > section {
+    text-align: center;
+    height: 28vw;
+}
+
+.travel-photos > img {
+    border-radius: 50%;
+    width: 50%;
+    border: 1px solid white;
+    margin: 5vw;
+}
+
+.travel a:link {
+    color: purple;
+}
+
+.travel a:visited {
+    color: lightcoral;
+}

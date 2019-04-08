@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans' rel="stylesheet");
+
+body {
+    background-color:  #0e0b16;
+    font-family: "Noto Sans", sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+body li {
+    list-style-type: none;
+}
+
+nav {
+    font-weight: bold;
+    background-color: #0e0b16;
+    color: white;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 10%;
+}
+
+
+
+.intro {
+    padding-top: 170px;
+    
+    background: url('../img/Tokyo-night.jpg') no-repeat center;
+    background-size: 1600px 600px;
+    height: 30vw;
+}
+
+
+.title {
+    color: white;
+    font-size: 1.625rem; /* 26px/16px */
+    letter-spacing: .065em;
+    font-weight: 500;
+    
+
+    text-align: center;
+}
+
+.title:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 50%; 
+    padding-top: 20px; 
+    border-bottom: 2px solid;
+}
+
+footer {
+    background-color: #0e0b16;
+    color: white;
+    text-align: center;
+}
