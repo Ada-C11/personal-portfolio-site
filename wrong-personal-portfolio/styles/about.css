@@ -1,0 +1,29 @@
+img {
+    height: 35vh;
+}
+#about-me {
+    display: grid;
+    grid-template: 50px 1fr 1fr/ 20px 1fr 1fr 20px;
+}
+#about-me h4 {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    text-align: center;
+}
+#about-me section {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+
+#about-me p {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+section img{
+    padding: 5px;
+}
