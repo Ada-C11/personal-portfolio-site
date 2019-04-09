@@ -1,0 +1,171 @@
+* {
+    text-align: center;
+    color: white;
+    font-family: 'Trocchi', serif;
+}
+
+[href] {
+    text-decoration: none;
+}
+
+[href]:hover {
+    text-decoration-line: underline;
+}
+
+html {
+    background-image: linear-gradient( #5F4B8B, #CEC3D2);
+    min-height: 100%;
+}
+
+main.journal h2, main.about h2, p {
+    text-align: left;
+}
+
+main {
+    padding: 2em;
+    padding-bottom: 3em;
+}
+
+.page-description {
+    font-size: 1.25em;
+    text-align: center;
+}
+/* Formatting for navbar, globally */
+nav {
+    background: #5F4B8B;
+    padding: 1em;
+    padding-bottom: 0.5em;
+}
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template: 1fr / 3.5fr 1fr 1fr 1fr;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+ul li:first-child {
+    text-align: left;
+}
+
+/* Formatting for Footer, globally */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+}
+
+/* formatting for index main */
+main.index {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+main.index a, .travels-block div {
+    background-color: white;
+    padding-bottom: 1em;
+    margin: 0.5em;
+}
+
+main.index img {
+    height: 200px;
+    width: 200px;
+    filter: grayscale(100%);
+}
+
+main.index img, .travels img {
+    display: block;
+    margin: 1em;
+    background-color: white;
+}
+
+main.index figcaption, .travels figcaption {
+    visibility: hidden;
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Merienda', cursive;
+    transform: rotate(-10deg)
+}
+
+main.index a:hover figcaption {
+    visibility: visible;
+}
+
+/* Formatting for Code Portfolio main  */
+main.portfolio {
+    display: block;
+}
+
+section.projects-group {
+    display: flex;
+    overflow-x: scroll;
+}
+
+article.project-block {
+    display: inline-block;
+    flex: 0 0 20%;
+    box-sizing: content-box;
+    margin: 0.5em;
+    padding: 0.25em;
+}
+
+/* Formatting for Journal */
+main.journal {
+    padding: 3em;
+}
+
+.journal section {
+    padding-bottom: 2em;
+}
+
+/* Formatting for About */
+article.music img, article.travels img {
+    width: 20%;
+    display: inline-block;
+}
+article.books img, article.travels img {
+    width: 200px;
+    height: 311px;
+    padding: 1em;
+}
+
+article.music img {
+    width: 168px;
+    height: 168px;
+    padding: 1em;
+}
+
+div.books-block {
+    display: flex;
+    overflow-x: scroll;
+    height: 350px;
+}
+
+.travels > div {
+    display: flex;
+    overflow-x: scroll;
+}
+
+div.albums-block {
+    display: flex;
+    overflow-x: scroll;
+    height: 220px;
+}
+
+.travels img {
+    padding: 1em;
+    padding-bottom: 3em;
+}
+
+.travels figcaption {
+    visibility: visible;
+}
