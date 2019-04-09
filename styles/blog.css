@@ -25,3 +25,18 @@ section img {
   height: 25vw;
   width: 40vw;
 }
+
+.socialmedia {
+  height: 100%;
+  width: 10vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow-x: hidden;
+  background-color: #90c3d8;
+}
+
+.socialmedia li {
+  display: flex;
+  flex-flow: row wrap;
+}
