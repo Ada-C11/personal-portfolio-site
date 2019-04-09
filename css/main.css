@@ -1,0 +1,150 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+nav {
+  display: flex;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none; 
+  
+}
+
+nav ul li {
+  padding: 1em;
+  display: inline-block;
+  
+}
+
+nav a:link {
+  text-decoration: none;
+  color: #B36B5D;
+}
+
+a:visited {
+  color: #ea8959;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: none;
+  color: white;
+}
+
+.fa-instagram {
+  background: none;
+  color: white;
+}
+
+.social {
+  margin-left: 5em;
+  margin-right: -2em;
+  padding-right: -.05em;
+  margin-right: -1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em;
+  padding-top: 3em;
+}
+ main p {
+   font-size: 1.5em;
+   text-align: center;
+   color: white;
+   margin-bottom: 1em;
+   padding-left: 5em;
+   padding-right: 5em;
+ }
+.content {
+  height: 500px;
+  background-image: url(../images/liana-mikah-344562-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFAE9D;
+ 
+}
+
+.portfolio {
+  height: 500px;
+  background-color: #eddb5a;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.portfolio h2 {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.portfolio a:link {
+  text-decoration: none;
+}
+
+#small {
+  font-size: 0.5em;
+}
+
+footer .cp {
+  color: #B36B5D;
+  
+}
+
+.portfolio-content {
+  height: 500px;
+  background-image: url(../images/main-flowers.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFAE9D;
+}
+
+.portfolio-images {
+  display: inline;
+  list-style-type: none;
+}
+
+.about-content h1{
+  color: #000;
+  text-align: center;
+}
+li #img1 {
+  height: 50px;
+  width: 50px;
+  background-image: url(../images/element5-digital-538883-unsplash.jpg);
+  background-size: contain;
+}
+#img2 {
+  height: 50px;
+  width: 50px;
+}
+#img3 {
+  height: 50px;
+  width: 50px;
+}
