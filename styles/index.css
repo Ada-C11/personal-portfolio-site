@@ -28,7 +28,7 @@ nav ul {
   flex-direction: row;
   padding: 0;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   list-style-type: none;
 }
 
@@ -108,7 +108,7 @@ footer {
   margin-top: 1rem;
   grid-row: 3;
   grid-column: 1;
-  width: 9rem;
+  width: 10rem;
   height: 2rem;
   background-color: white;
 }
