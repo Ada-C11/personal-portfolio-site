@@ -1,0 +1,216 @@
+/* all pages  */
+
+
+/* body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+/* header  */
+
+nav>ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+}
+
+nav ul li {
+    padding: 1em;
+    margin: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #184A45;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FF6F61;
+}
+
+.active-page {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* footer  */
+
+footer {
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2em;
+    color: #184A45;
+}
+
+footer a {
+    text-decoration: none;
+    color: #184A45;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FF6F61;
+}
+
+
+/* about.html  */
+
+.about-me>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 1em;
+    margin-top: 2em;
+}
+
+.about-me h2 {
+    text-align: center;
+}
+
+.about-me>div article {
+    max-width: 40em;
+}
+
+.about-me>div article div {
+    padding-bottom: .5em;
+    text-align: center;
+    border: solid #00656B 2px;
+    background-color: rgba(255, 110, 97, 0.089);
+}
+
+.about-me>div article p {
+    padding: 1em;
+    border: solid #00656B 2px;
+    background-color: rgba(255, 110, 97, 0.089);
+}
+
+.about-me>div img {
+    max-height: 24em;
+    border: solid #00656B 2px;
+}
+
+#contact h2 {
+    padding: 1.5em;
+    text-align: center;
+}
+
+#contact>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 3em;
+    justify-content: center;
+}
+
+#contact div div {
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
+
+#contact div div img {
+    float: left;
+}
+
+#contact div div a {
+    text-decoration: none;
+    margin-left: .5em;
+    margin-top: .5em;
+}
+
+#contact div a:hover {
+    text-decoration: underline;
+}
+
+#contact img {
+    height: 1.5em;
+}
+
+
+/* index, portfolio.html, & code-journal.html*/
+
+#projects ul,
+#nav-boxes ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#journal-entries ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects ul li,
+#nav-boxes ul li {
+    border: solid #00656B;
+    2px;
+    background-color: rgba(255, 110, 97, 0.089);
+    padding: 1em;
+    margin: 1em;
+    max-width: 20em;
+    min-width: 6em;
+}
+
+#nav-boxes ul li {
+    font-size: 1.25em;
+    text-align: center;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#journal-entries ul li article {
+    padding: 1em;
+    margin: 1em;
+    border: solid #00656B;
+    background-color: rgba(255, 110, 97, 0.089);
+}
+
+#projects ul li a,
+#nav-boxes ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#projects ul li a:hover,
+#nav-boxes ul li a:hover {
+    text-decoration: underline;
+    color: #FF6F61;
+}
