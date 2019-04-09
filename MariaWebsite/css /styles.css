@@ -46,7 +46,7 @@ p {
 .landing--container {
   position: relative;
   margin: 0;
-  background-image: url("/Users/maria/ada/MariaWebsite/images/Nk+GsazVTzKt7RoorYahDg_thumb_187.jpg");
+  background-image: url("/Users/maria/ada/personal-portfolio-site/MariaWebsite/images/Nk+GsazVTzKt7RoorYahDg_thumb_187.jpg");
   background-attachment: fixed;
   background-position: auto;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ p {
   top: 40%;
   text-align: center;
 }
- h1 {
+h1 {
     margin-top: 1px;
     color: rgb(107, 7, 113);
     font-size: 7em;
@@ -89,41 +89,45 @@ p {
 
 section {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   margin-left: auto;
   margin-right: 80px;
-
-
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
 .about-me{
+    margin-top: 70px;
     background-color: rgb(212, 236, 236);
-    text-align: center ; 
 }
-.about-me > div {
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+
+p.about {
+  text-align: auto ; 
+  margin-top: 20px;
+  font-size: 1em;
 }
 
 .my-coding-journal{
     background-color: rgb(244, 237, 187);
-}
- .my-coding-journal > div {
     margin-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+}
+
+p.coding-journal {
+  text-align: auto ; 
+  margin-top: 20px;
+  font-size: 1em;
 }
 
 .other-hobbies{
     background-color: rgb(203, 245, 217);
-}
-
- .other-hobbies > div {
     margin-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
+p.hobbies {
+  text-align: auto ; 
+  margin-top: 20px;
+  font-size: 1em;
+}
 
 
 
