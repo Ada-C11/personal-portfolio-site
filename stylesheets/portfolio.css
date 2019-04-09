@@ -26,8 +26,6 @@ ul, li {
 div.flexbox {
   display: flex;
   justify-content: space-between;
-
-
 }
 .flexbox.heading {
   align-items: center;
@@ -46,9 +44,7 @@ div.flexbox a {
  
 
  div.flexbox a:hover {
-
   list-style-position: outside;
-
   background-color:  rgb(18, 72, 100);
   color: white;
   border-radius: 4px;
@@ -57,12 +53,11 @@ div.flexbox a {
 article {
   margin: 100px 0px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 30px;
 }
 
 img {
-
   height: 150px;
   margin: 0 1.5em 1.5em 2em;
 }

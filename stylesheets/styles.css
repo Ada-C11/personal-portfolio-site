@@ -3,6 +3,12 @@ h1 {
   font-family: 'Oleo Script', cursive;
   font-size: 4em;
   text-align: center;
+  color: rgb(3, 37, 53);
+}
+
+h2 {
+  
+  color: rgb(3, 37, 53);
 }
 
 /* body {

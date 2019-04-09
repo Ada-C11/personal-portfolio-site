@@ -5,6 +5,7 @@ h2 {
   font-size: 2em;
   text-align: center;
   margin: 0 0 2em 0;
+  color: rgb(3, 37, 53);
 }
 h1 {
   font-family: 'Oleo Script', cursive;
@@ -13,7 +14,6 @@ h1 {
   margin: .5em 0 0 0;
 }
 
- 
 main {
   padding: 8em 3em;
 }
@@ -22,7 +22,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 main section {
@@ -43,7 +42,6 @@ main a:hover {
   padding: .5em 1em;
   margin: 0 0.5em;
   list-style-position: outside;
-
   background-color: #fff;
   color: rgb(18, 72, 100);
   border-radius: 6px;
