@@ -1,0 +1,53 @@
+
+/* overall container for all projects */
+.projects-wrapper {
+    display: flex;
+justify-content: space-around;
+margin-bottom: 4em
+
+}
+
+#project-header {
+    font-size: 7em;
+    font-weight: bold;
+    letter-spacing: .03em;
+    margin-top: -.5em;
+    margin-left: .025em
+}
+
+/* container for each indiv project, autofits into projects wrapper  */
+.projects {
+    flex-basis: auto;
+    position: relative;
+    width:auto;
+    height:auto;
+    max-width:33%;
+}
+
+/* to shrink images to fit projects container */
+.projects img {
+    width: 95%;
+    height: 100%
+}
+
+
+/* sets up hover background on images, set to invisible unless hovered */
+.desc-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 20px;
+    background-color: gray;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1em;
+    /* padding centers overlaying text on image */
+    padding: 3em 2em
+}
+
+
+.projects:hover .desc-wrapper {
+    visibility: visible;
+    opacity: .75
+}

@@ -1,0 +1,89 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'intro intro' 'left-container right-container' 'about about' 'coffee coffee';
+}
+
+
+body #headshot {
+    text-align: left;
+    transform: rotate(90deg);
+    height: 10em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+}
+
+.left-container {
+    grid-area: left-container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    margin-top: -1em;
+}
+
+
+#introduction {
+    margin-block-start: -.25em;
+    font-size: 5em;
+    text-align: center;
+    width: 100%;
+    grid-area: intro 
+}
+
+#second-life {
+    text-align: center;
+    grid-area: intro;
+    margin-top: 3em;
+    font-size: 2em;
+}
+
+
+/* color for left container and interests section */
+#fullstack, #languages {
+    color: plum;
+    margin-block-end: .5em;
+}
+
+#new {
+    color: pink
+}
+
+#native {
+    color: darkturquoise
+}
+
+#interests {
+    color: darkturquoise;
+    font-size: 2.5em;
+    grid-area: right-container;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fashion, #Seattle {
+    color: white
+}
+
+#coffee-wrap {
+    grid-area: coffee;
+   text-align: center;
+   margin-top: 2em;
+   margin-bottom: 4em
+}
+
+#Coffee {
+    font-size: 1.5em;
+    color: white;
+    border-radius: 25px;
+    border: white solid 1px;
+    background-color:darkturquoise;
+    padding: 10px 10px;
+}
+
+#Coffee:hover {
+    background-color: pink
+}
