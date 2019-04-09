@@ -69,10 +69,14 @@ body div {
     justify-content: center;
 }
 
+section {
+    padding: 50px 200px 50px 200px;
+}
+
 .home {
     padding: 275px;
     text-align: center;
-    background-image: linear-gradient(120deg, rgb(244, 215, 253), white, rgb(244, 215, 253));
+    background-image: linear-gradient(-120deg, rgb(244, 215, 253), white, rgb(244, 215, 253));
 }
 
 @keyframes fade {
@@ -102,13 +106,18 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 125px 50px 0 0;
+    animation-name: fade;
+    animation-duration: 2s;
+    text-align: right;
+}
+
 .home a:hover {
     border: 2px solid rgb(252, 203, 217);
     box-shadow: 5px 5px;
-}
-
-section {
-    padding: 200px;
 }
 
 .about {
@@ -163,10 +172,6 @@ section {
     font-size: 1rem;
     font-weight: 300;
     text-align: left;
-}
-
-.portfolio {
-    padding: 125px 200px 50px 200px;
 }
 
 .portfolio a:hover {
