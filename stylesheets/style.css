@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body {
+    border-top: dotted lightsteelblue;
     text-align: center;
     color: steelblue;
     margin-right: 5%;
@@ -9,7 +10,7 @@ body {
 }
 
 section {
-    border-bottom: solid lightsteelblue;
+    border-bottom: dotted lightsteelblue;
     margin-top: 5%;
     padding-bottom: 5%;
 }
@@ -41,7 +42,7 @@ a:hover {
 }
     
 #navigationlinks {
-    border-bottom: solid lightsteelblue;
+    border-bottom: dotted lightsteelblue;
     margin-top: 0%;
     padding-bottom: 0%;
 }
