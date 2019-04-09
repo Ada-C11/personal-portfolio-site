@@ -118,12 +118,6 @@ article.project-block {
     padding: 0.25em;
 }
 
-span.project_language {
-    border-radius: 20%;
-    background: black;
-    font-size: 0.75em;
-}
-
 /* Formatting for Journal */
 main.journal {
     padding: 3em;
@@ -134,7 +128,7 @@ main.journal {
 }
 
 /* Formatting for About */
-article.music img, article.travels img  {
+article.music img, article.travels img,  {
     width: 20%;
     display: inline-block;
 }
@@ -159,7 +153,7 @@ div.books-block {
 .travels > div {
     display: flex;
     overflow-x: scroll;
-    height: 400px;
+    height: 400 px;
 }
 
 div.albums-block {
