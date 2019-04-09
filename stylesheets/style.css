@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    text-align: center;
+    color: steelblue;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: 'Montserrat', serif;
+}
+
+section {
+    border-bottom: solid lightsteelblue;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 2%;
+    font-size: 20;
+    font-family: 'Montserrat', serif;
+}
+
+a { 
+    text-decoration: none;
+} 
+
+a:hover { 
+    text-decoration: underline; 
+}
+    
+#navigationlinks {
+    border-bottom: solid lightsteelblue;
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+
+#navigationlinks :link {
+    color: lightsteelblue;
+}
+
+#navigationlinks :visited {
+    color: lightskyblue;
+}
+#navigationlinks :hover {
+    color: lightseagreen;
+}
+
+#greeting img {
+    width: 250px;
+    height: 250px;
+}
+
+#places img {
+    width: 250px;
+    height: 250px;
+    padding: 5%;
+}
+
+/* #places .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+#places:hover .overlay {
+    opacity: 1;
+  } */
