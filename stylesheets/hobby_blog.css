@@ -4,13 +4,26 @@
     text-align: left;
 }
 
+
 .read {
     display: grid;
     grid-template-columns: 300px 1fr;
 }
 
+.to-article ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    margin-right: 7em;
+}
+
+.to-article ul li {
+    margin-top: 1.5em;
+}
+
 .main-content {
-    margin-left: -100px;
+    margin-left: -80px;
     /* hacky way to keep css styling from styles and get it to work */
 }
 
