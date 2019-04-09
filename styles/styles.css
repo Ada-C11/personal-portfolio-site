@@ -128,7 +128,7 @@ main.journal {
 }
 
 /* Formatting for About */
-article.music img, article.travels img,  {
+article.music img, article.travels img {
     width: 20%;
     display: inline-block;
 }
@@ -153,7 +153,6 @@ div.books-block {
 .travels > div {
     display: flex;
     overflow-x: scroll;
-    height: 400 px;
 }
 
 div.albums-block {
