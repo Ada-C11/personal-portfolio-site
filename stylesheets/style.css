@@ -1,23 +1,30 @@
 /* all pages  */
 
+
 /* body */
 
 body {
     font-family: 'Raleway', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
 }
+
+
 /* header  */
 
-nav > ul {
+nav>ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
 }
 
 nav ul li {
@@ -39,6 +46,7 @@ nav ul li a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
+
 
 /* footer  */
 
@@ -68,13 +76,10 @@ footer a:hover {
     color: #FF6F61;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}
 
 /* about.html  */
 
-.about-me > div {
+.about-me>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -87,23 +92,24 @@ footer a:hover {
     text-align: center;
 }
 
-.about-me > div article {
+.about-me>div article {
     max-width: 40em;
 }
 
-.about-me > div article div {
+.about-me>div article div {
     padding-bottom: .5em;
     text-align: center;
     border: solid #00656B 2px;
     background-color: rgba(255, 110, 97, 0.089);
 }
-.about-me > div article p {
+
+.about-me>div article p {
     padding: 1em;
     border: solid #00656B 2px;
     background-color: rgba(255, 110, 97, 0.089);
 }
 
-.about-me > div img {
+.about-me>div img {
     max-height: 24em;
     border: solid #00656B 2px;
 }
@@ -113,7 +119,7 @@ footer a:hover {
     text-align: center;
 }
 
-#contact > div {
+#contact>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -144,9 +150,11 @@ footer a:hover {
     height: 1.5em;
 }
 
-/* index, portfolio.html & code-journal.html*/
 
-#projects ul, #nav-boxes ul {
+/* index, portfolio.html, & code-journal.html*/
+
+#projects ul,
+#nav-boxes ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -167,8 +175,11 @@ footer a:hover {
 #projects h2 {
     text-align: center;
 }
-#projects ul li, #nav-boxes ul li {
-    border: solid #00656B; 2px;
+
+#projects ul li,
+#nav-boxes ul li {
+    border: solid #00656B;
+    2px;
     background-color: rgba(255, 110, 97, 0.089);
     padding: 1em;
     margin: 1em;
@@ -191,13 +202,15 @@ footer a:hover {
     background-color: rgba(255, 110, 97, 0.089);
 }
 
-#projects ul li a, #nav-boxes ul li a {
-    display: block; 
+#projects ul li a,
+#nav-boxes ul li a {
+    display: block;
     text-decoration: none;
     color: black;
 }
 
-#projects ul li a:hover, #nav-boxes ul li a:hover {
+#projects ul li a:hover,
+#nav-boxes ul li a:hover {
     text-decoration: underline;
     color: #FF6F61;
 }
