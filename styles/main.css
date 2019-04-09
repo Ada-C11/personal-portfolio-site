@@ -58,7 +58,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
-    color: #ffe6e6;
+    color: pink;
     font-size: 1.5em; 
 }
 
@@ -80,11 +80,11 @@ nav a:hover {
 }
 
 #projects:hover {
-color: darkturquoise
+color: rgba(231, 84, 128, 0.619) 
 }
 
 #about:hover {
-color: pink
+color: darkturquoise
 }
 
 #blog:hover {
@@ -102,10 +102,10 @@ footer {
     font-size: 3em;
     text-align: center;
 }
-footer #social-media{
-    color: white
+footer #social-media #email, #linkedin {
+    color: plum
 }
 
 footer :hover {
-    color: plum
+    color: white
 }

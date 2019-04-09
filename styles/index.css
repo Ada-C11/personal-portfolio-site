@@ -46,8 +46,12 @@ body #headshot {
     margin-block-end: .5em;
 }
 
-#new, #native {
+#new {
     color: pink
+}
+
+#native {
+    color: darkturquoise
 }
 
 #interests {
