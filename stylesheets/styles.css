@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 footer {
-  grid-row: 3;
   position: absolute;
   bottom: 0;
   width: 100%;
