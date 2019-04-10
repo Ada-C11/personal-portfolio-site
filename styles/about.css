@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header {
+  margin: auto 0;
+  text-align: center;
+}
+
+img {
+  float: left;
+  padding: 1em;
+  width: 300px;
+}
+
+li {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.socialmedia {
+  padding-top: 2em;
+}
