@@ -102,8 +102,12 @@ section {
 }
 
 p.about {
+  border: 3px solid white;
+  height: 80vh;
+  width: 70vh;
+  padding: 40px;
   text-align: auto ; 
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1em;
 }
 
