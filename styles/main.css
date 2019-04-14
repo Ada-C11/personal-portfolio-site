@@ -20,6 +20,10 @@ nav {
     transform: scale(1.6); 
   }
   
+  a:visited{
+    color: white;
+  }
+  
   body {
     background-image: url('file:/Users/graceshea/Documents/Ada/projects/personal-portfolio-site/images/paint.jpg');
     font-family: 'Montserrat', sans-serif;
