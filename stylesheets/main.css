@@ -13,8 +13,17 @@ html {
 }
 
 h1 {
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Alice', sans-serif;
   font-size: 3em;
+  color: #444;
+}
+
+h1::before {
+  content: "[  "
+}
+
+h1::after {
+  content: "  ]"
 }
 
 ul {
