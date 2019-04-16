@@ -63,3 +63,7 @@ img:hover{
 footer {
   padding-top: 8rem;
 }
+
+ul {
+  padding: 0;
+}

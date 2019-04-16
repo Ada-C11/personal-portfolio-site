@@ -2,54 +2,55 @@
 
 .wrapper {
     text-align: center;
+    padding: 0;
   }
   
-  .social-links {
-    line-height: .5em;
-    justify-items: center;
-    font-family: 'Kristi', cursive;
-    font-size: 2em;
-  }
+.social-links {
+  line-height: .5em;
+  justify-items: center;
+  font-family: 'Kristi', cursive;
+  font-size: 2em;
+  line-height: 75%;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 2%;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 25%;
+  overflow: auto;
+}
   
-  .social-links ul {
-    list-style: none;
-    padding: 2%;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 25%;
-    overflow: auto;
-  }
-   
-  .social-links ul li {
-      list-style-type: none;
-      float: left;
-  }
-  
-  .social-links ul li a i {
-    color: black;
-    opacity: .5em;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 25px;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 15%;
-  }
-  
-  .social-links ul li a i {
-      transition: all 0.2s ease-in-out;
-  }
-  .social-links ul li a i:hover {
-    opacity: .5;
-    transform: scale(1.8); 
-    color: #E6AB00;
-  }
-  
-  .social-links h2 {
-    font-size: 3em;
-    color: #E6AB00;
-  }
+.social-links ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.social-links ul li a i {
+  color: black;
+  opacity: .5em;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.social-links ul li a i {
+    transition: all 0.2s ease-in-out;
+}
+.social-links ul li a i:hover {
+  opacity: .5;
+  transform: scale(1.8); 
+  color: #E6AB00;
+}
+
+.social-links h2 {
+  font-size: 2em;
+  color: #E6AB00;
+}
 
 img {
   width: 15em;
@@ -59,3 +60,26 @@ img {
   padding-bottom: 2em;
 }
 
+.type {
+  line-height: 1.25em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
