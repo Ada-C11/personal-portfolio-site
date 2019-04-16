@@ -1,9 +1,10 @@
   
-.title {
+.type {
   font-family: 'Kristi', cursive;
   font-size: 5em;
   letter-spacing: .25em;
   opacity: .75;
+  padding: 2%;
   }
 
 
