@@ -3,8 +3,9 @@
   flex-direction: column;
   color: #fdfffc;
   font-size: 16pt;
-  padding: 0;
+  padding: 50px;
   color: #353535;
+  margin: 50px;
 }
 
 .main-grid {
@@ -17,6 +18,21 @@
   font-size: 12pt;
 }
 
+.main-grid ul {
+  text-align: center;
+}
+
 .main-grid li {
   text-align: center;
+  grid-gap: 40px;
+  padding: 10px;
+}
+
+.main-top {
+  text-align: center;
+}
+
+.main-top > p:first-child {
+  text-align: center;
+  font-size: 30pt;
 }

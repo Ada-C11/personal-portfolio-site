@@ -25,12 +25,14 @@ body {
 }
 
 .fab,
-.fas {
+.fas,
+.far {
   color: #353535;
 }
 
 .fab:hover,
-.fas:hover {
+.fas:hover,
+.far:hover {
   color: #b91372;
 }
 

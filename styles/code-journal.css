@@ -3,14 +3,14 @@
   flex-direction: column;
   color: #fdfffc;
   font-size: 16pt;
-  padding: 0;
+  padding: 50px 0;
   color: #353535;
 }
 
 .main-grid {
   display: grid;
   margin: 20px auto;
-  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
   flex-direction: row;
   grid-gap: 40px;
   max-width: 1100px;
