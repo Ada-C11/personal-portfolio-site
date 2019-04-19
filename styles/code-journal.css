@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  color: #fdfffc;
+  font-size: 16pt;
+  padding: 50px 0;
+  color: #353535;
+}
+
+.main-grid {
+  display: grid;
+  margin: 20px auto;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  flex-direction: row;
+  grid-gap: 40px;
+  max-width: 1100px;
+  font-size: 12pt;
+}
+
+.main-grid li {
+  text-align: center;
+}
+
+.main-blog-title {
+  font-size: 30pt;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.main-read-post {
+  font-size: 14pt;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.main-read-post:hover {
+  color: #b91372;
+  font-style: bold;
+}
