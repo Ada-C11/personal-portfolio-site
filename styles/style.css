@@ -64,7 +64,10 @@ nav, main, footer {
   justify-content: space-between
 }
 
-.box > div {
+.box li:last-child {
+  display: none;
+}
+/* .box > div {
   padding: 0px;
   width: 50%;
   height: 100%;
@@ -80,12 +83,12 @@ nav, main, footer {
 .box div:nth-child(2) {
   justify-content: space-between;
   align-content: center;
-}
+} */
 
 @media screen and (max-width: 604px) {
-  .container {
+  /* .container {
     grid-template-rows: 25% 1fr 10%;
-  }
+  } */
 
   .box {
     flex-flow: column;
@@ -93,17 +96,28 @@ nav, main, footer {
     align-items: center;
   }
 
-  .box > div {
+  .box li:last-child {
+    width: 15px;
+    height: 15px;
+    display: contents;
+  }
+
+  /* .box > div {
     flex-flow: column;
   }
 
   .box div:nth-child(2) {
     justify-content: space-evenly
-  }
+  } */
 
   #name, #home, #about, #portfolio, #code-journal {
     box-align: center;
   }
+
+  #home, #about, #portfolio, #code-journal {
+    display: none;
+  }
+
 }
 
 footer {

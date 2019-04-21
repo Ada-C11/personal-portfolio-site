@@ -9,7 +9,7 @@ main > p:first-child {
   font-size: 2em;
 }
 
-img {
+main img {
   border-radius: 50%;
   border: solid 2px black;
   width: 200px;
