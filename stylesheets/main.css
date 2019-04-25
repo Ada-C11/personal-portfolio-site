@@ -7,7 +7,7 @@ main {
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans';
   color: #1F1F1F;
   background-color: #F7F7F7;
 }
@@ -122,32 +122,4 @@ section ul {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-}
-
-/* Buttons styling courtesy of: https://codepen.io/pirrera/pen/bqVeGx */
-section ul li {
-  flex: 1 1 auto;
-  margin: .25em;
-  padding: 1em;
-  width: 50%;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: 1F1F1F;
-  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
- }
-
-li:hover {
-  background-position: right center;
-}
-
-section ul li:nth-child(even) {
-  background-image: linear-gradient(to right, #D8D8D8 0%, #F7F7F7 51%, #D8D8D8 100%);
-}
-
-section ul li:nth-child(odd) {
-  background-image: linear-gradient(to right, #F7F7F7 0%, #D8D8D8 51%, #F7F7F7 100%);
 }
