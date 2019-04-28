@@ -84,12 +84,6 @@ main {
     align-items: center;
 }
 
-footer {
-    grid-column: span 2;
-    background: rgb(80, 55, 3, 0.2);
-    text-align: center;
-}
-
 article {
     display: flex;
     flex-direction: column;
@@ -142,6 +136,13 @@ article h3 {
     text-align: center;
     line-height: 3em;
 }
+
+footer {
+    grid-column: span 2;
+    background: rgb(80, 55, 3, 0.2);
+    text-align: center;
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }
