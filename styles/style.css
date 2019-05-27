@@ -60,6 +60,11 @@ a:after {
     }
 }
 
+.logo {
+    height: 50px;
+    width: 50%;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
