@@ -1,0 +1,12 @@
+#bio {
+  display: flex;
+  flex-flow: column;
+  align-items: center
+}
+
+#bio p {
+  margin-right: 3em;
+  margin-left: 3em;
+  
+}
+
