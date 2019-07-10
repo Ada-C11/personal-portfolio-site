@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+html, body {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px
+}
+
+li {
+  text-align: center;
+}
+
+#name > a {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Indie Flower, sans-serif;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 10% 1fr 10%;
+  vertical-align: middle;
+}
+
+nav {
+  background-color: #00cccc;
+}
+
+ul, p, h4 {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+
+nav, main, footer {
+  padding: 2em;
+}
+
+.box {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between
+}
+
+.box li:last-child {
+  display: none;
+}
+/* .box > div {
+  padding: 0px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box div:first-child {
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.box div:nth-child(2) {
+  justify-content: space-between;
+  align-content: center;
+} */
+
+@media screen and (max-width: 604px) {
+  /* .container {
+    grid-template-rows: 25% 1fr 10%;
+  } */
+
+  .box {
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .box li:last-child {
+    width: 15px;
+    height: 15px;
+    display: contents;
+  }
+
+  /* .box > div {
+    flex-flow: column;
+  }
+
+  .box div:nth-child(2) {
+    justify-content: space-evenly
+  } */
+
+  #name, #home, #about, #portfolio, #code-journal {
+    box-align: center;
+  }
+
+  #home, #about, #portfolio, #code-journal {
+    display: none;
+  }
+
+}
+
+footer {
+  border-top: solid 2px #00cccc;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+

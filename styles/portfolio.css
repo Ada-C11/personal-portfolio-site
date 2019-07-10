@@ -1,0 +1,32 @@
+img {
+  border-radius: 10%;
+  border: solid 2px black;
+  width: 250px;
+  height: 250px;
+}
+
+li .text {
+  position: relative;
+  visibility: hidden;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+li:hover .text {
+  visibility: visible
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 2em;
+}
+
+@media screen and (max-width: 604px) {
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
