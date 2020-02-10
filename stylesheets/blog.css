@@ -1,0 +1,57 @@
+body {
+    text-align: left;
+}
+
+main {
+    grid-column:2/7;
+}
+
+h2{
+    color:darkgrey;
+}
+
+aside {
+    margin: 20px;
+    grid-column:1/2;
+    position:fixed;
+}
+
+aside ul {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+aside li {
+    margin:20px; 
+}
+
+section ul:empty:before{
+    content: "Nothing to see here yet!"
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+.post {
+    background-color: #433459b3;
+    padding:20px;
+    margin:20px;
+}
+
+main.post {
+    width:80%;
+    margin:auto;
+}
+
+@media only screen and (max-width:950px) {
+    aside {
+        display:none;
+    } 
+
+    main {
+    grid-column:1/7;
+    }
+}

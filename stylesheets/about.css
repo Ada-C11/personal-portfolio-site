@@ -1,0 +1,41 @@
+main {
+    text-align:left;
+    margin:0 4em 0 4em;
+    padding:1em 3em 1em 3em;
+}
+
+.profile-photo {
+    max-width:250px ;
+    max-height:250px ;
+    border-radius: 20%;
+    float:left;
+    margin-right:30px;
+    margin-bottom: 20px;
+}
+.icon {
+    max-height:50px;
+    max-width: 50px;
+    margin:15px;
+}
+
+#contact {
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+}
+
+#hobbies {
+    padding-left: 2em;
+}
+
+#hobbies li{
+    text-align: justify;
+    font: 1em "Josefin Sans";
+    list-style-type: circle;
+}
+
+@media only screen and (max-width:600px) {
+    main {
+        margin:0;
+    }
+}

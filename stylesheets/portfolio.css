@@ -1,0 +1,46 @@
+.thumbnail {
+    margin:30px;
+    display: inline-block;
+    padding:20px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
+}
+
+.thumbnail a {
+    display: block;
+    padding-bottom:10px;
+    font-family: "Josefin Sans"
+}
+
+.thumbnail img {
+    width:200px
+}
+
+.thumbnail p {
+    padding:15px;
+    font-size:0.7em;
+}
+
+.thumbnail:hover{
+    border: 1px solid #EE5622
+}
+
+#programming-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width:1023px) {
+    #programming-projects {
+        grid-template-columns: 1fr;
+        
+    }
+    .thumbnail {
+        margin-left:0;
+        margin-right:0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
