@@ -1,0 +1,125 @@
+/* General Styling */
+main {
+  margin-top: 8em;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+html {
+	font-family: 'Open Sans';
+  color: #1F1F1F;
+  background-color: #F7F7F7;
+}
+
+h1 {
+  font-family: 'Alice', sans-serif;
+  font-size: 3em;
+  color: #444;
+}
+
+h1::before {
+  content: "[  "
+}
+
+h1::after {
+  content: "  ]"
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+i {
+  font-size: 1.5em;
+}
+
+a {
+  color: #676767;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1F1F1F;
+}
+
+/* Hover action courtesy of https://tympanus.net/Development/CreativeLinkEffects */
+a::before,
+a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+a:hover::before,
+a:hover::after,
+a:focus::before,
+a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+/* Nav & footer bars */
+.bar {
+  position: fixed;
+  padding: 1.5em;
+  width: 100%;
+  background-color: #1F1F1F;
+  color: #F7F7F7;
+}
+
+.bar a {
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+.bar a:visited{
+  color: #D8D8D8;
+}
+
+/* Top Nav Bar*/
+nav {
+  top: 0;
+  text-align: center;
+}
+
+nav ul {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Footer */
+footer {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 7fr 1fr;
+  bottom: 0;
+}
+
+section ul {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
